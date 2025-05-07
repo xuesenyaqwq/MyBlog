@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="叠甲\r本人并非计算机专业，本文章可能并不是特别详细，若有遗漏请评论区指出，如文章意见与您本人意见不同，请友善讨论\n前言\r如果你是一个普通的游戏玩家，喜欢在家里打游戏，那么必定少不了与一起游玩的朋友语音。\n">
+<title>从0开始，带你玩转TeamSpeak</title>
+
+<link rel='canonical' href='https://blog.sakurasen.cn/p/2024060801/'>
+
+<link rel="stylesheet" href="/scss/style.min.74eb694e4c8128dde440d9f335b7157aadd406b826a2659e73d4c2c7f32a6e88.css"><meta property='og:title' content="从0开始，带你玩转TeamSpeak">
+<meta property='og:description' content="叠甲\r本人并非计算机专业，本文章可能并不是特别详细，若有遗漏请评论区指出，如文章意见与您本人意见不同，请友善讨论\n前言\r如果你是一个普通的游戏玩家，喜欢在家里打游戏，那么必定少不了与一起游玩的朋友语音。\n">
+<meta property='og:url' content='https://blog.sakurasen.cn/p/2024060801/'>
+<meta property='og:site_name' content='森语 - SenBlog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='TeamSpeak' /><meta property='article:tag' content='服务器搭建' /><meta property='article:tag' content='语音软件' /><meta property='article:published_time' content='2024-06-08T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-05-06T01:23:13&#43;08:00'/><meta property='og:image' content='https://blog.sakurasen.cn/p/2024060801/updata%E5%B0%81%E9%9D%A2.png' />
+<meta name="twitter:title" content="从0开始，带你玩转TeamSpeak">
+<meta name="twitter:description" content="叠甲\r本人并非计算机专业，本文章可能并不是特别详细，若有遗漏请评论区指出，如文章意见与您本人意见不同，请友善讨论\n前言\r如果你是一个普通的游戏玩家，喜欢在家里打游戏，那么必定少不了与一起游玩的朋友语音。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.sakurasen.cn/p/2024060801/updata%E5%B0%81%E9%9D%A2.png' /><link rel="preconnect" href="https://sakurasen.cn">
+<link rel="preconnect" href="https://sakurasen.cn" crossorigin>
+<link href="https://sakurasen.cn/cdn/font/noto_serif_sc_500_original.css" rel="stylesheet">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="https://sakurasen.cn/icon" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">森语 - SenBlog</a></h1>
+            <h2 class="site-description">无限进步！</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://jq.qq.com/?_wv=1027&amp;k=G2D7IA7x'
+                        target="_blank"
+                        title="QQGroup"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-qq"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 9.748a14.716 14.716 0 0 0 11.995 -.052c.275 -9.236 -11.104 -11.256 -11.995 .052z" /><path d="M18 10c.984 2.762 1.949 4.765 2 7.153c.014 .688 -.664 1.346 -1.184 .303c-.346 -.696 -.952 -1.181 -1.816 -1.456" /><path d="M17 16c.031 1.831 .147 3.102 -1 4" /><path d="M8 20c-1.099 -.87 -.914 -2.24 -1 -4" /><path d="M6 10c-.783 2.338 -1.742 4.12 -1.968 6.43c-.217 2.227 .716 1.644 1.16 .917c.296 -.487 .898 -.934 1.808 -1.347" /><path d="M15.898 13l-.476 -2" /><path d="M8 20l-1.5 1c-.5 .5 -.5 1 .5 1h10c1 0 1 -.5 .5 -1l-1.5 -1" /><path d="M13.75 7m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M10.25 7m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://steamcommunity.com/id/SakuraSenQwQ/'
+                        target="_blank"
+                        title="Steam"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-steam"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" /><circle cx="16.5" cy="9.5" r="1" fill="currentColor" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/511629145'
+                        target="_blank"
+                        title="BiliBili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://music.163.com/#/user/home?id=2031695727'
+                        target="_blank"
+                        title="NetEaseMusic"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-netease-music"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 4c-2.93 1.346 -5 5.046 -5 8.492c0 4.508 4 7.508 8 7.508s8 -3 8 -7c0 -3.513 -3.5 -5.513 -6 -5.513s-5 1.513 -5 4.513c0 2 1.5 3 3 3s3 -1 3 -3c0 -3.513 -2 -4.508 -2 -6.515c0 -3.504 3.5 -2.603 4 -1.502" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/message/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>留言板</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/friends/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>朋友们</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://blog.sakurasen.cn/" selected>中文</option>
+                                
+                                    <option value="https://blog.sakurasen.cn/en/" >English</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#叠甲">叠甲</a></li>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#什么是teamspeak">什么是TeamSpeak？</a></li>
+    <li><a href="#客户端安装">客户端安装</a>
+      <ol>
+        <li><a href="#官网下载">官网下载</a></li>
+      </ol>
+    </li>
+    <li><a href="#客户端汉化">客户端汉化</a></li>
+    <li><a href="#服务器选择">服务器选择</a></li>
+    <li><a href="#服务器系统选择">服务器系统选择</a></li>
+    <li><a href="#服务器搭建">服务器搭建</a>
+      <ol>
+        <li><a href="#linux系统">Linux系统</a></li>
+        <li><a href="#连接服务器">连接服务器</a>
+          <ol>
+            <li><a href="#检查防火墙">检查防火墙</a></li>
+          </ol>
+        </li>
+        <li><a href="#下载服务器安装包">下载服务器安装包</a></li>
+        <li><a href="#启动服务器">启动服务器</a></li>
+      </ol>
+    </li>
+    <li><a href="#管理服务器">管理服务器</a>
+      <ol>
+        <li><a href="#基础操作">基础操作</a></li>
+        <li><a href="#权限管理">权限管理</a></li>
+        <li><a href="#永久半永久临时频道">永久/半永久/临时频道</a></li>
+        <li><a href="#注意">注意</a></li>
+        <li><a href="#常见问题">常见问题</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/2024060801/">
+                <img src="/p/2024060801/updata%E5%B0%81%E9%9D%A2_hu_334b20e5cf23ea23.png"
+                        srcset="/p/2024060801/updata%E5%B0%81%E9%9D%A2_hu_334b20e5cf23ea23.png 800w, /p/2024060801/updata%E5%B0%81%E9%9D%A2_hu_c1d5a4fa7872d817.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 从0开始，带你玩转TeamSpeak" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+        <a href="/categories/%E6%88%91%E6%80%9D/">
+            我思
+        </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/2024060801/">从0开始，带你玩转TeamSpeak</a>
+        </h2>
+
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+            <time class="article-time--published">2024-06-08</time>
+        </div>
+        
+
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <time class="article-time--reading">
+                阅读时长: 7 分钟
+            </time>
+        </div>
+        
+        
+        <div>
+            <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1746495917232" class="icon" viewBox="0 0 1070 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2729" xmlns:xlink="http://www.w3.org/1999/xlink" width="208.984375" height="200"><path d="M779.729455 791.272727l-86.43491-186.181818h-316.043636l-86.434909 186.181818H349.090909a23.272727 23.272727 0 1 1 0 46.545455h-139.636364a23.272727 23.272727 0 1 1 0-46.545455h32.628364a23.179636 23.179636 0 0 1 2.187636-10.286545l269.870546-581.352727a23.272727 23.272727 0 0 1 42.263273 0l270.196363 582.050909a23.179636 23.179636 0 0 1 2.187637 9.588363h32.302545a23.272727 23.272727 0 1 1 0 46.545455h-139.636364a23.272727 23.272727 0 1 1 0-46.545455h58.27491zM398.894545 558.545455h272.849455L535.272727 264.704 398.894545 558.545455z" fill="#666666" p-id="2730"></path></svg>
+            <time class="article-words">
+                3096 字
+            </time>
+        </div>
+        
+
+    </footer>
+    
+
+    
+
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="叠甲">叠甲
+</h2><p>本人并非计算机专业，本文章可能并不是特别详细，若有遗漏请评论区指出，如文章意见与您本人意见不同，请友善讨论</p>
+<h2 id="前言">前言
+</h2><p>如果你是一个普通的游戏玩家，喜欢在家里打游戏，那么必定少不了与一起游玩的朋友语音。</p>
+<p>市面上的语音软件也层出不穷，例如早期的YY与近期的Oopz，都在语音软件这块市场有自己的一席之地，而玩家对于语音软件的评判标准也就那么几条，无非是方便，实用，好用。</p>
+<p>近期被讨伐的KooK之前可以说是占据了语音软件大部分的市场，而为什么一直以来的KooK饱受诟病以至于现在大部分玩家完全放弃KooK了？我觉得大部分原因都来自于KooK自身的商业化失败。</p>
+<p>一个语音软件最基础的功能-降噪都要收费，而且自身软件臃肿，一直都有人吐槽他的性能优化，关于KooK的篇幅我就不详细展开了，已经有UP讨论过了。</p>
+<p>那么回到我们本期的主要内容:</p>
+<h2 id="什么是teamspeak">什么是TeamSpeak？
+</h2><p>引用TeamSpeak的官方网站一句话：您的团队，由您做主。</p>
+<p>在本篇内容中将会从客户端至服务端带你从0入门TeamSpeak</p>
+<p>在我眼中看来，TeamSpeak就是自由度极高的一款语音软件，你可以自定义你的频道，自己管理你的频道，一切管理权都在你的手中。</p>
+<p>且自身功能十分强大，拥有降噪功能，回声消除，抑制键盘声与回声抑制功能。</p>
+<p>而且软件自身占用也小，也有两个版本可供选择，分别是新UI新界面的 TeamSpeak5 与经典Ui经典界面的 TeamSpeak3</p>
+<p><img src="/p/2024060801/updata20240608050600.png"
+	width="1034"
+	height="584"
+	srcset="/p/2024060801/updata20240608050600_hu_c04b28f987aa6b1f.png 480w, /p/2024060801/updata20240608050600_hu_3d9c5a99f67d7d0f.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="424px"
+	
+></p>
+<p>这么强大的功能但现在使用的普及率却少之又少，为什么会这样呢？很大一部分原因</p>
+<p>可能就是使用成本高了，此软件如果你想流畅使用的话需要自行购买服务器搭建。</p>
+<p>而服务器搭建的门槛却是相对较高的，大部分人可能并不会搭建以及懒得搭建，而在本期内容中，我将带你从0入坑TeamSpeak。</p>
+<h2 id="客户端安装">客户端安装
+</h2><h3 id="官网下载">官网下载
+</h3><p><a class="link" href="https://teamspeak.com/zh-CN/downloads/"  target="_blank" rel="noopener" >官网下载</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+</p>
+<p>推荐下载 TS3 本篇文章演示使用的为TS3，TS3相比TS5占用小，更稳定，最多人使用的版本且TS5需要强制登录，TS3无需强制登录。</p>
+<p><img src="/p/2024060801/updata20240608074857.png"
+	width="1324"
+	height="1044"
+	srcset="/p/2024060801/updata20240608074857_hu_e273fc2bd1d6a4c6.png 480w, /p/2024060801/updata20240608074857_hu_1eeecb683feee2c8.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="126"
+		data-flex-basis="304px"
+	
+></p>
+<h2 id="客户端汉化">客户端汉化
+</h2><p>TS5客户端自带汉化， TS3需要安装后下载汉化包双击打开汉化版即可安装</p>
+<p><a class="link" href="https://github.com/VigorousPro/TS3-Translation_zh-CN/"  target="_blank" rel="noopener" >Github项目地址</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+ | <a class="link" href="https://drive.sakurasen.cn/d/D1/TeamSpeak/Chinese_Translation_zh-CN.ts3_translation?sign=iUWf3iXtSs27XrtsCFYJ0hANac_6pMm_bG1reYny8ns=:0"  target="_blank" rel="noopener" >本站网盘下载</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+ | <a class="link" href="https://github.com/VigorousPro/TS3-Translation_zh-CN/releases"  target="_blank" rel="noopener" >Github下载</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+</p>
+<p><img src="/p/2024060801/updata20240608080506.png"
+	width="393"
+	height="563"
+	srcset="/p/2024060801/updata20240608080506_hu_46ed7630798907e8.png 480w, /p/2024060801/updata20240608080506_hu_3a2ed3cb77a6a3d5.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="69"
+		data-flex-basis="167px"
+	
+></p>
+<h2 id="服务器选择">服务器选择
+</h2><p>在目前，服务器供应商有极其多，大厂有阿里云腾讯云这些，优点是服务器稳定，缺点就是价格昂贵，但如果你是新人，两个大厂都有新人优惠，新用户99元即可购买一年。（此处不是广告，国内服务器价格一般都是偏贵的，99元一年确实是特别值得购买的）</p>
+<p>如果你想购买腾讯云的服务器，只需要购买腾讯云的 <strong>轻量应用服务器</strong> 即可满足大部分使用场景</p>
+<p><a class="link" href="https://cloud.tencent.com/act/pro/2024Mid-year"  target="_blank" rel="noopener" >https://cloud.tencent.com/act/pro/2024Mid-year</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+</p>
+<p><img src="/p/2024060801/updata20240608051612.png"
+	width="579"
+	height="274"
+	srcset="/p/2024060801/updata20240608051612_hu_685cfe580c8f6022.png 480w, /p/2024060801/updata20240608051612_hu_64c43079dd08f637.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="211"
+		data-flex-basis="507px"
+	
+></p>
+<p>2核2G4M对于TeamSpeak服务器来说相对性能过剩了，购买后不仅可以部署TeamSpeak，如果你有兴趣还可以部署一些其他应用。</p>
+<p>如果你购买的是阿里云服务器，那么可以去他们的活动界面</p>
+<p><a class="link" href="https://cloud.tencent.com/act/pro/2024Mid-year"  target="_blank" rel="noopener" >https://www.aliyun.com/daily-act/ecs/99program</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+</p>
+<p><img src="/p/2024060801/updata20240608051829.png"
+	width="947"
+	height="266"
+	srcset="/p/2024060801/updata20240608051829_hu_336af4fb6c9fac8.png 480w, /p/2024060801/updata20240608051829_hu_580b40e0f98a1d38.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="356"
+		data-flex-basis="854px"
+	
+></p>
+<p>同样购买99/年的服务器。</p>
+<p>如果你要选择一些小厂，目前我一直用的小厂只有一家，就是<a class="link" href="https://www.rainyun.com/Sakura_"  target="_blank" rel="noopener" >雨云</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+。</p>
+<p>他们的服务器价格是18/月，年付7折。</p>
+<p><img src="/p/2024060801/updata20240608052252.png"
+	width="792"
+	height="287"
+	srcset="/p/2024060801/updata20240608052252_hu_f010e3c8453ae442.png 480w, /p/2024060801/updata20240608052252_hu_f3fd42b571695a78.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="275"
+		data-flex-basis="662px"
+	
+></p>
+<p>但注意，此套餐是没有公网IP的，只有一个共享IP来让你转发端口实现服务器访问。</p>
+<p>此类服务器访问时需要加IP+端口，例如 114.114.514.514:19198 而如果你购买的是以上大厂服务器则自带公网IP，不需要加端口访问，只需要输入 114.114.514.514 即可访问。虽然雨云也可以购买公网IP，但是价格嘛，就&hellip;&hellip;与大厂价格差不多了。本篇文章就只使用阿里云服务器作为讲解，如果有需要我也可以单独出一期视频讲解雨云这类服务器如何部署。</p>
+<p>当然，以上服务商都是支持七天无理由退款的。</p>
+<p>如果你不想购买服务器，那么也有很多公益服务器可供大家使用，我本人虽没有开建公益服务器，但如果此视频播放量与点赞量高的话，我将会开放公益服务器供大家使用&gt;w&lt;也欢迎大家在评论区分享自己的公益服务器。</p>
+<h2 id="服务器系统选择">服务器系统选择
+</h2><p>当你购买完服务器后，你需要为你的服务器选择系统，如果你愿意折腾，那么建议你使用Linux系统，我的Linux系统使用的是Debian，那么在本章后续内容中也会采用Debian来演示。当然，如果你不愿意折腾的话，我后面可以出一期Windows如何部署。</p>
+<p><img src="/p/2024060801/updata20240608053051.png"
+	width="1724"
+	height="699"
+	srcset="/p/2024060801/updata20240608053051_hu_69fef8ff260223dd.png 480w, /p/2024060801/updata20240608053051_hu_fc5aea0deb5f5e64.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="246"
+		data-flex-basis="591px"
+	
+></p>
+<h2 id="服务器搭建">服务器搭建
+</h2><h3 id="linux系统">Linux系统
+</h3><p>当你购买完后，你将获得一个公网IP，以及一个服务器密码，如果没有服务器密码的话可以试着在控制台重置密码，每个云服务器厂商的控制台都有区别，正好我的阿里云有一台机器，我将用阿里云举例。</p>
+<p><img src="/p/2024060801/updata20240608053949.png"
+	width="323"
+	height="83"
+	srcset="/p/2024060801/updata20240608053949_hu_538688660ee57c7a.png 480w, /p/2024060801/updata20240608053949_hu_26ab9083dc29e99a.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="389"
+		data-flex-basis="933px"
+	
+></p>
+<p><img src="/p/2024060801/updata20240608054020.png"
+	width="683"
+	height="613"
+	srcset="/p/2024060801/updata20240608054020_hu_5523ca989098086b.png 480w, /p/2024060801/updata20240608054020_hu_656590b981a58dbd.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="111"
+		data-flex-basis="267px"
+	
+></p>
+<p>服务器用户名为root，这也是Linux系统的管理员用户名。那么现在你应该就有服务器IP，密码了。</p>
+<h3 id="连接服务器">连接服务器
+</h3><p>一般来说，管理Linux服务器需要下载一个SSH客户端，SSH客户端也层出不穷，每一家都有每一家的优点。大家可以自行搜索下载，这边我拿我经常使用的SSh客户端 <strong>Termius</strong> 举例：</p>
+<p>打开连接 <a class="link" href="https://termius.com/download/windows"  target="_blank" rel="noopener" >https://termius.com/download/windows</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+ 点击下载即可。</p>
+<p><img src="/p/2024060801/updata20240608060650.png"
+	width="1238"
+	height="770"
+	srcset="/p/2024060801/updata20240608060650_hu_46e2708740d0c331.png 480w, /p/2024060801/updata20240608060650_hu_6d372c8d961e4a60.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="160"
+		data-flex-basis="385px"
+	
+></p>
+<p>点击邮箱注册即可</p>
+<p><img src="/p/2024060801/updata20240608060807.png"
+	width="678"
+	height="504"
+	srcset="/p/2024060801/updata20240608060807_hu_b32c8efa1afd248.png 480w, /p/2024060801/updata20240608060807_hu_ab40d48349bf0309.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="134"
+		data-flex-basis="322px"
+	
+></p>
+<p>输入你的邮箱</p>
+<p><img src="/p/2024060801/updata20240608060830.png"
+	width="725"
+	height="520"
+	srcset="/p/2024060801/updata20240608060830_hu_f7229a00799ba508.png 480w, /p/2024060801/updata20240608060830_hu_b6030af348ec1b96.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="139"
+		data-flex-basis="334px"
+	
+></p>
+<p>输入你的密码</p>
+<p>进入主页面后点击 <strong>NEW HOST</strong> 添加新的服务器</p>
+<p><img src="/p/2024060801/updata20240608060909.png"
+	width="1030"
+	height="750"
+	srcset="/p/2024060801/updata20240608060909_hu_a8c6be9f15291a11.png 480w, /p/2024060801/updata20240608060909_hu_84b93d4cce9798b9.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="329px"
+	
+></p>
+<p><img src="/p/2024060801/updata20240608060954.png"
+	width="320"
+	height="103"
+	srcset="/p/2024060801/updata20240608060954_hu_f9610dd76a11c9c3.png 480w, /p/2024060801/updata20240608060954_hu_9df6018f4a4accbf.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="310"
+		data-flex-basis="745px"
+	
+></p>
+<p>这里是输入IP地址的，填写你购买服务器的IP即可。</p>
+<p><img src="/p/2024060801/updata20240608061029.png"
+	width="310"
+	height="200"
+	srcset="/p/2024060801/updata20240608061029_hu_35efe8502997e1aa.png 480w, /p/2024060801/updata20240608061029_hu_7db187ca7d68daa5.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="155"
+		data-flex-basis="372px"
+	
+></p>
+<p>这里是填写服务器端口与用户名密码的，如果你没有修改端口，则默认端口为22，用户名为root。
+<img src="/p/2024060801/updata20240608061121.png"
+	width="237"
+	height="40"
+	srcset="/p/2024060801/updata20240608061121_hu_8e0543315383f4da.png 480w, /p/2024060801/updata20240608061121_hu_f5c5fa0bb84a20ee.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="592"
+		data-flex-basis="1422px"
+	
+> <img src="/p/2024060801/updata20240608061128.png"
+	width="272"
+	height="207"
+	srcset="/p/2024060801/updata20240608061128_hu_472119881bb140ad.png 480w, /p/2024060801/updata20240608061128_hu_8d8a49dcebff9f68.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="131"
+		data-flex-basis="315px"
+	
+></p>
+<p>点击添加密码，输入你的密码即可。</p>
+<p>添加完你就可以在主页看到你添加的服务器了，双击连接即可。</p>
+<p>如果连接失败，请查看服务器防火墙与账号密码是否正确。</p>
+<h4 id="检查防火墙">检查防火墙
+</h4><p><img src="/p/2024060801/updata20240608061704.png"
+	width="1577"
+	height="359"
+	srcset="/p/2024060801/updata20240608061704_hu_c81e78cf83c39122.png 480w, /p/2024060801/updata20240608061704_hu_50f30f0748f681dd.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="439"
+		data-flex-basis="1054px"
+	
+></p>
+<p><img src="/p/2024060801/updata20240608061812.png"
+	width="1246"
+	height="93"
+	srcset="/p/2024060801/updata20240608061812_hu_7342c0fa62ed1022.png 480w, /p/2024060801/updata20240608061812_hu_4f53ce8e8d4f2e38.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="1339"
+		data-flex-basis="3215px"
+	
+></p>
+<p>查看22端口(TCP)是否被放行。</p>
+<h3 id="下载服务器安装包">下载服务器安装包
+</h3><p>首先检查命令是否完整</p>
+<p><img src="/p/2024060801/updata20240608063627.png"
+	width="728"
+	height="201"
+	srcset="/p/2024060801/updata20240608063627_hu_64e2e731755e81e2.png 480w, /p/2024060801/updata20240608063627_hu_f19acc6435657f87.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="362"
+		data-flex-basis="869px"
+	
+></p>
+<p>安装一般都会用到这些命令，如果输入后提示 <strong>command not found</strong></p>
+<p>那么需要安装对应的命令，例如缺少wget，则需要输入</p>
+<p><code>apt install wget</code></p>
+<p>然后输入 <code>mkdir /root/ts</code> 在root目录下新建一个teamspeak目录。</p>
+<p>输入 <code>cd /root/ts</code> 进入刚才创建的目录</p>
+<p>输入</p>
+<p><code>wget https://files.teamspeak-services.com/releases/server/3.13.7/teamspeak3-server_linux_amd64-3.13.7.tar.bz2</code></p>
+<p>来下载服务器安装包，你也可以自己下载上传解压：<a class="link" href="https://teamspeak.com/en/downloads/#server"  target="_blank" rel="noopener" >官网下载</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+ | <a class="link" href="https://pan.badsen.cn/d/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E8%BD%AF%E4%BB%B6/TeamSpeak/teamspeak3-server_linux_amd64-3.13.7.tar.bz2?sign=MupTEHMOTh3LNuD-pP53gCr79-Mh0FqsXIeiq6gEt6c=:0"  target="_blank" rel="noopener" >本站网盘</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+</p>
+<p>下载完毕后输入</p>
+<p><code>tar -jxvf teamspeak3-server_linux_amd64-3.13.7.tar.bz2</code></p>
+<p>即可解压</p>
+<p>进入解压后的目录</p>
+<p><code>cd teamspeak3-server_linux_amd64/</code></p>
+<p>创建文件同意许可证</p>
+<p><code>touch .ts3server_license_accepted</code></p>
+<h3 id="启动服务器">启动服务器
+</h3><p>输入 <code>./ts3server</code> 即可启动服务器</p>
+<p>启动后，你需要放行端口，与之前放行22端口一样，请放行 <strong>9987(UDP)</strong> 与 <strong>30033(TCP)</strong> 端口
+<img src="/p/2024060801/updata20240608071047.png"
+	width="835"
+	height="121"
+	srcset="/p/2024060801/updata20240608071047_hu_9f910e4d2bfb3d70.png 480w, /p/2024060801/updata20240608071047_hu_dc59f0a75ef70f0e.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="690"
+		data-flex-basis="1656px"
+	
+></p>
+<p>启动后会提供一个权限密钥，你需要登录服务器，然后输入此权限密钥即可获得管理员权限</p>
+<p><img src="/p/2024060801/updata20240608070621.png"
+	width="483"
+	height="132"
+	srcset="/p/2024060801/updata20240608070621_hu_ce32a2748f82a8e.png 480w, /p/2024060801/updata20240608070621_hu_c4ba52fac93e33f0.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="365"
+		data-flex-basis="878px"
+	
+></p>
+<p>复制&rsquo;Token=&lsquo;后面的一串密钥，输入权限密钥即可</p>
+<p><img src="/p/2024060801/updata20240608071148.png"
+	width="318"
+	height="148"
+	srcset="/p/2024060801/updata20240608071148_hu_3de68262a849e7cc.png 480w, /p/2024060801/updata20240608071148_hu_3e242a98a84eb87.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="214"
+		data-flex-basis="515px"
+	
+></p>
+<p>如果现在关闭SSH，则服务器会停止运行，如果你想后台运行，则需要Ctrl+C先关闭服务器，然后输入 <code>./ts3server_startscript.sh start</code></p>
+<p>就此，恭喜你，所有服务器内容搭建完毕</p>
+<h2 id="管理服务器">管理服务器
+</h2><h3 id="基础操作">基础操作
+</h3><p><img src="/p/2024060801/updata20240608071419.png"
+	width="363"
+	height="264"
+	srcset="/p/2024060801/updata20240608071419_hu_c146ca976296eda7.png 480w, /p/2024060801/updata20240608071419_hu_af752051b5cfd05.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="330px"
+	
+></p>
+<p>右键TeamSpeak Server即可选择编辑服务器，如果你是新的服务器，请务必设置一个密码。然后推荐你修改一下图标上传大小，因为TeamSpeak服务器默认图标最大上传大小为8KB，打开设置，高级权限设置</p>
+<p><img src="/p/2024060801/updata20240608071707.png"
+	width="1197"
+	height="772"
+	srcset="/p/2024060801/updata20240608071707_hu_7c336d707a48a9e4.png 480w, /p/2024060801/updata20240608071707_hu_3fa65f95a3184431.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="155"
+		data-flex-basis="372px"
+	
+></p>
+<p>点击权限，服务器组，官方默认给了三个权限：</p>
+<ul>
+<li>Server Admin</li>
+<li>服务器管理员，权限为75</li>
+<li>Normal</li>
+<li>普通用户，权限为50</li>
+<li>Guest</li>
+<li>默认用户，下载权限为25，发言权限为0</li>
+</ul>
+<p>你可以右键这三个权限组来重命名等操作</p>
+<p>在<strong>Server Admin</strong> -&gt; <strong>Group</strong> -&gt; <strong>i_max_icon_filesize</strong> 修改上传图标大小，单位为Bytes(1Kb=1024Bytes)</p>
+<p>而 i_icon_id  则为权限组图标，你可以自己上传图标来美化服务器</p>
+<p><img src="/p/2024060801/updata20240608073145.png"
+	width="771"
+	height="662"
+	srcset="/p/2024060801/updata20240608073145_hu_71a23bd447e71515.png 480w, /p/2024060801/updata20240608073145_hu_bcb3b5f3cc4003d8.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="116"
+		data-flex-basis="279px"
+	
+></p>
+<p>当然你也可以设置语音音质，无脑最高即可
+<img src="/p/2024060801/updata20240608081543.png"
+	width="332"
+	height="217"
+	srcset="/p/2024060801/updata20240608081543_hu_ff8ce68bcc79d356.png 480w, /p/2024060801/updata20240608081543_hu_22d50878db9914c7.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="152"
+		data-flex-basis="367px"
+	
+></p>
+<h3 id="权限管理">权限管理
+</h3><p><img src="/p/2024060801/updata20240608073218.png"
+	width="544"
+	height="575"
+	srcset="/p/2024060801/updata20240608073218_hu_1d91a00936294290.png 480w, /p/2024060801/updata20240608073218_hu_f7d611668dd2f3e7.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="94"
+		data-flex-basis="227px"
+	
+></p>
+<p>服务器有一个默认频道，这是所有新用户加入进来的第一个频道，此频道不受权限中的加入权限影响，无论数值多少都会在进入服务器时加入，但此频道受 <code>基本 -&gt; 发言管控</code> 影响，如果你不想任何人进来都能发言的话可以设置大于75的数值，因为75为管理员数值，大于此数值就意味着包括管理员的任何人都无法在此频道发言。</p>
+<p>任何频道的权限都是如此，我已在上方列出各个权限组对应的权限数字，只需要根据数字来调整即可。</p>
+<h3 id="永久半永久临时频道">永久/半永久/临时频道
+</h3><ul>
+<li>永久频道</li>
+<li>永久存在于频道中</li>
+<li>半永久频道</li>
+<li>服务器重启后消失</li>
+<li>临时频道</li>
+<li>频道中无人自动删除</li>
+</ul>
+<h3 id="注意">注意
+</h3><p>默认用户组有权限新建一个临时频道，请在权限管理组移除这个权限，以防万一</p>
+<p><img src="/p/2024060801/updata20240608074446.png"
+	width="1075"
+	height="866"
+	srcset="/p/2024060801/updata20240608074446_hu_14e777d647fae3d3.png 480w, /p/2024060801/updata20240608074446_hu_fd043490948ad987.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="124"
+		data-flex-basis="297px"
+	
+></p>
+<p>但还是推荐你给服务器加上密码！双重保险</p>
+<h3 id="常见问题">常见问题
+</h3><blockquote>
+<p>为什么声音忽大忽小？</p>
+<ul>
+<li>请移除频道中用户的优先发言人</li>
+</ul></blockquote>
+<p>如果你有更多问题，欢迎加群<a class="link" href="https://jq.qq.com/?_wv=1027&amp;k=G2D7IA7x"  target="_blank" rel="noopener" >629616100</a>
+
+<span style="white-space: nowrap;"><svg width=".7em" height=".7em" viewBox="0 0 21 21"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+来寻求帮助与交流~</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/teamspeak/">TeamSpeak</a>
+        
+            <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/">服务器搭建</a>
+        
+            <a href="/tags/%E8%AF%AD%E9%9F%B3%E8%BD%AF%E4%BB%B6/">语音软件</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2025-05-06 01:23 CST
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://blog.sakurasen.cn/src/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://blog.sakurasen.cn/src/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://blog.sakurasen.cn/src/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/2025050401/">
+        
+        
+            <div class="article-image">
+                <img src="/p/2025050401/98841678_p0.a9a661d39ad0a089c0218c84f5fbb440_hu_232620efe4bafa2e.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 如何把我的博客变成你的博客"
+                        data-key="2025050401" 
+                        data-hash="md5-qaZh05rQoInAIYyE9fu0QA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何把我的博客变成你的博客</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/df_guns/">
+        
+        
+            <div class="article-image">
+                <img src="/p/df_guns/t0125f9a5597f29ab7b.288b4104558e97b5d7fb5f863b061a88_hu_edf94b860d471cf1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 三角洲自用改枪码"
+                        data-key="DF_GUNS" 
+                        data-hash="md5-KItBBFWOl7XX&#43;1&#43;GOwYaiA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">三角洲自用改枪码</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/2025010101/">
+        
+        
+            <div class="article-image">
+                <img src="/p/2025010101/IMG_20241107_065713.5ba11e28be19393b8368a68e1ad507e5_hu_6abf4508b9ffb6cc.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 新年快乐！"
+                        data-key="2025010101" 
+                        data-hash="md5-W6EeKL4ZOTuDaKaOGtUH5Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">新年快乐！</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/2024052701/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/p/2024052701/rainyun.svg" loading="lazy" data-key="2024052701" data-hash="/p/2024052701/rainyun.svg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">雨云湖北十堰云服务器测评</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/388/">
+        
+        
+            <div class="article-image">
+                <img src="/p/388/20250507022533.727781a893437171f549ee92831496f8_hu_67be869d37cfee3.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post PVE虚拟机UEFI启动时跳转到系统安装界面"
+                        data-key="388" 
+                        data-hash="md5-cneBqJNDcXH1Se6SgxSW&#43;A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">PVE虚拟机UEFI启动时跳转到系统安装界面</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="//blog.sakurasen.cn/twikoo/twikoo.min.js"></script>
+<div id="tcomment"></div>
+<style>
+    .twikoo {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'https:\/\/c.sakurasen.cn',
+        el: '#tcomment',})
+</script>
+
+    
+
+    <footer class="site-footer">
+    
+    
+
+    <div>
+        <p id="footer-sponsor"><a href="https://www.rainyun.com/?ref=MjEwOTk=" target="_blank" alt="Server Sponsor" rel="nofollow"><img src="https://blog.sakurasen.cn/src/rainyun.svg" alt="Server Sponsor" style="height: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" alt="Theme Sponsor" rel="nofollow"><img src="https://blog.sakurasen.cn/src/Stack.svg" alt="Theme Sponsor" style="height: 2em;"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gohugo.io/" target="_blank" alt="Theme Sponsor" rel="nofollow"><img src="https://blog.sakurasen.cn/src/hugo.svg" alt="Blog SyStem Sponsor" style="height: 2em;"></a></p>
+    </div>
+    
+    <section class="totalcount">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        发表了 18 篇文章 · 总计 21000 字
+        
+    </section>
+    <div>
+        <a href="/copyright">版权说明</a>&nbsp|&nbsp<a href="/donate">支持我</a>&nbsp|&nbsp<a href="/feedback">反馈</a>
+    </div>
+    
+
+    <div style="display: inline-flex; justify-items: center;">
+        <a target="_blank" href="https://beian.miit.gov.cn/" id="beian">豫ICP备2024071946号</a><a>&nbsp;|&nbsp;</a>
+        <a target="_blank" id="ga" href="https://beian.mps.gov.cn/#/query/webSearch?code=41040302000150"
+            style="display:inline-block;text-decoration:none;">豫公网安备41040302000150号</a>
+    </div>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://blog.sakurasen.cn/src/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://blog.sakurasen.cn/src/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://blog.sakurasen.cn/src/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://blog.sakurasen.cn/src/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://blog.sakurasen.cn/src/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.bad963bbb9cab18a8e5e6066f7f182982a393f9fa634f76417810839ec6949fc.js" defer></script>
+
+
+<script
+    src="https://sakurasen.cn/cdn/npo/nprogress.min.js"
+    integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+    crossorigin="anonymous"
+></script>
+<link
+    rel="stylesheet"
+    href="https://sakurasen.cn/cdn/npo/nprogress.css"
+    integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+    crossorigin="anonymous"
+/>
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
+</script>
+    </body>
+</html>
