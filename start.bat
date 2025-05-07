@@ -75,7 +75,7 @@ git commit -m "%commit_message%"
 echo 已提交更改
 
 :: 推送更改
-git push -f web1 main
+git push -f web main
 git push -f myserver main 
 
 
