@@ -76,7 +76,7 @@ echo 已提交更改
 
 :: 推送更改
 git push -f web1 main
-git push myserver main --f
+git push -f myserver main 
 
 
 echo 已推送至所有仓库的main分支
