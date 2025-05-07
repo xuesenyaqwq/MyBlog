@@ -1,0 +1,274 @@
+baseurl: https://blog.sakurasen.cn/
+languageCode: zh-cn
+theme: hugo-theme-stack
+title: SakuraSen's Blog
+copyright: SakuraSen
+
+# Theme i18n support
+# Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
+DefaultContentLanguage: zh-cn
+
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+hasCJKLanguage: true
+
+languages:
+    en:
+        languageName: English
+        title: SakuraSen's BLOG
+        weight: 2
+        params:
+            sidebar:
+                subtitle: Limitless progress!
+    zh-cn:
+        languageName: 中文
+        title: 森语 - SenBlog
+        weight: 1
+        params:
+            sidebar:
+                subtitle: 无限进步！
+services:
+    # Change it to your Disqus shortname before using
+    disqus:
+        shortname: "hugo-theme-stack"
+    # GA Tracking ID
+    googleAnalytics:
+        id:
+
+pagination:
+    pagerSize: 5
+
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
+
+params:
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+
+    footer:
+        since: 2021
+        customText:
+
+    dateFormat:
+        published: 2006-01-02
+        lastUpdated: 2006-01-02 15:04 MST
+
+    sidebar:
+        avatar:
+            enabled: true
+            local: false
+            src: https://sakurasen.cn/icon
+
+    article:
+        math: true
+        toc: true
+        readingTime: true
+        license:
+            enabled: false
+            default: SEN-LICENCE 1.0
+        wordCount: true
+
+    comments:
+        enabled: true
+        provider: twikoo
+
+        disqusjs:
+            shortname:
+            apiUrl:
+            apiKey:
+            admin:
+            adminLabel:
+
+        utterances:
+            repo:
+            issueTerm: pathname
+            label:
+
+        beaudar:
+            repo:
+            issueTerm: pathname
+            label:
+            theme:
+
+        remark42:
+            host:
+            site:
+            locale:
+
+        vssue:
+            platform:
+            owner:
+            repo:
+            clientId:
+            clientSecret:
+            autoCreateIssue: false
+
+        # Waline client configuration see: https://waline.js.org/en/reference/component.html
+        waline:
+            serverURL:
+            lang:
+            pageview:
+            emoji:
+                - https://unpkg.com/@waline/emojis@1.0.1/weibo
+            requiredMeta:
+                - name
+                - email
+                - url
+            locale:
+                admin: Admin
+                placeholder:
+
+        twikoo:
+            envId: https://c.sakurasen.cn
+            region:
+            path:
+            lang:
+
+        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
+        cactus:
+            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+            serverName: "cactus.chat"
+            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+
+        giscus:
+            repo:
+            repoID:
+            category:
+            categoryID:
+            mapping:
+            lightTheme:
+            darkTheme:
+            reactionsEnabled: 1
+            emitMetadata: 0
+
+        gitalk:
+            owner:
+            admin:
+            repo:
+            clientID:
+            clientSecret:
+            proxy:
+
+        cusdis:
+            host:
+            id:
+    widgets:
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
+
+    opengraph:
+        twitter:
+            # Your Twitter username
+            site:
+
+            # Available values: summary, summary_large_image
+            card: summary_large_image
+
+    defaultImage:
+        opengraph:
+            enabled: false
+            local: false
+            src:
+
+    colorScheme:
+        # Display toggle
+        toggle: true
+
+        # Available values: auto, light, dark
+        default: auto
+
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+frontmatter:
+  lastmod: [":fileModTime", "lastmod"]
+
+### Custom menu
+### See https://stack.jimmycai.com/config/menu
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+menu:
+    main:  []
+    social:
+        - identifier: QQGroup
+          name: QQGroup
+          weight: 1
+          url: https://jq.qq.com/?_wv=1027&k=G2D7IA7x
+          params:
+              icon: brand-qq
+        - identifier: Steam
+          name: Steam
+          weight: 2
+          url: https://steamcommunity.com/id/SakuraSenQwQ/
+          params:
+              icon: brand-steam
+        - identifier: BiliBili
+          weight: 3
+          name: BiliBili
+          url: https://space.bilibili.com/511629145
+          params:
+              icon: brand-bilibili
+        - identifier: NetEaseMusic
+          name: NetEaseMusic
+          weight: 4
+          url: https://music.163.com/#/user/home?id=2031695727
+          params:
+              icon: brand-netease-music
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
+
+markup:
+    goldmark:
+        extensions:
+            passthrough:
+                enable: true
+                delimiters:
+                    block:
+                        - - \[
+                          - \]
+                        - - $$
+                          - $$
+                    inline:
+                        - - \(
+                          - \)
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: true
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: false
+        lineNumbersInTable: true
+        tabWidth: 4
+        style: onedark

@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "b967e844e85a0141",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d7c662cf008ec24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02942032c6a0d3a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/page/about/index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "11a09d666b31c988",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1a4de9c2945713d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8d2eaaabca860e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "87a145565ea0cc1b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": " ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "447b14c3915490ec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "e8c472d39ea315e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "fefc694107b53280",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a383d0e38849381b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/2025m5d4h12m5s9/博客是怎样建成的.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "博客是怎样建成的 的反向链接列表"
+            }
+          },
+          {
+            "id": "a253ac5e520a39f3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/post/2025-05-04如何把我的博客变成你的博客/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "index 的出链列表"
+            }
+          },
+          {
+            "id": "d2acb29a821141bc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "d1a75b12cdd171a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/page/about/index.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "index 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 251.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false
+    }
+  },
+  "active": "02942032c6a0d3a8",
+  "lastOpenFiles": [
+    "start.bat",
+    "public/start.bat",
+    "content/page/about/index.en.md",
+    "content/page/links/index.md",
+    "content/page/about/index.md",
+    "public/scss/style.min.74eb694e4c8128dde440d9f335b7157aadd406b826a2659e73d4c2c7f32a6e88.css",
+    "public/scss/style.min.0181442f66a744fb39715c93613621868bac7501ad4ccd76b91fc6c81cde679a.css",
+    "public/scss/style.min.ade05a47d1c7fbd96a891ba60ba7d24a6c320438ecbc028e07395ffbd253c8a1.css",
+    "public/scss/style.min.092db47f5a418c03cd4605f4bf2bc7a829b24249530d8f2ef781dbebbfed80c4.css",
+    "public/scss/style.min.0e9134154b696c37f4a0e21b267a2749174bd691a5e3c0503dcc63b01c425cbc.css",
+    "public/scss/style.min.844df4fa14d2444b0936ea79bbe2877991987c1fae04257a81c6b58d7aec5962.css",
+    "public/scss/style.min.94431ebfc0b79be9b9b01b45600ee3ea1869ab1c73f04ca760dbb7b7d4e95460.css",
+    "public/scss/style.min.6778cbea57fb4cc8119de889e01ac7273be81e4a351c5c58e920b9a3114c40c5.css",
+    "public/scss/style.min.d114acee01ba53c232b5748f685274962c7a8216949b2c7e212f905f3e589c71.css",
+    "cf.senovo.space.md",
+    "public/about/ark_hu_16faa9ea7fdd94e7.png",
+    "public/about/ark_hu_9a444904234dc847.png",
+    "resources/_gen/images/about/ark_hu_16faa9ea7fdd94e7.png",
+    "resources/_gen/images/about/ark_hu_9a444904234dc847.png",
+    "public/about/ark.png",
+    "public/categories/我思/wonder.a560eaa2a1edd63326aed3773dae07d6.a560eaa2a1edd63326aed3773dae07d6_hu_ff7736b646c82bcd.jpg",
+    "resources/_gen/images/categories/我思/wonder.a560eaa2a1edd63326aed3773dae07d6.a560eaa2a1edd63326aed3773dae07d6_hu_ff7736b646c82bcd.jpg",
+    "public/categories/我思/wonder.a560eaa2a1edd63326aed3773dae07d6.a560eaa2a1edd63326aed3773dae07d6.jpg",
+    "public/about/img_share-2025-05-07 04_41_34.png",
+    "content/page/about/ark.png",
+    "content/post/2025-05-04如何把我的博客变成你的博客/index.md",
+    "content/_index.zh-cn.md",
+    "content/_index.md",
+    "content/_index.en.md",
+    "content/page/copyright/index.en.md",
+    "content/page/copyright/index.md",
+    "content/post/2023-01-31Debian开机挂载磁盘/index.md",
+    "content/post/2023-12-22年度总结/index.md",
+    "content/post/2024-04-09Pr导入flac音频文件插件/index.md",
+    "content/post/2024-04-19PVE虚拟机UEFI启动时跳转到系统安装界面/index.md",
+    "content/post/2025-05-01用上预制证书！不再每次手动申请！/index.md",
+    "themes/hugo-theme-stack/README.md",
+    "content/post/2025-05-01用上预制证书！不再每次手动申请！/index.en.md",
+    "content/post/2025-05-05/index.en.md",
+    "content/post/2025-05-04如何把我的博客变成你的博客/content/post/2025-05-04如何把我的博客变成你的博客/index.md",
+    "content/post/2024-06-08从0开始，带你玩转TeamSpeak/index.md",
+    "content/post/2023-08-12APEX自用画质cfg启动项/index.md",
+    "content/post/2023-07-21 《魔女的夜宴》补丁下载/index.md",
+    "content/post/2023-06-15APEX_传家宝如何购买便宜/index.md",
+    "content/post/2023-01-27千恋万花补丁/index.md",
+    "content/post/2025-04-08三角洲自用改枪码/index.md"
+  ]
+}
