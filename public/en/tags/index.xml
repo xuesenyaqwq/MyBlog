@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on SakuraSen&#39;s BLOG</title>
+        <link>https://blog.sakurasen.cn/en/tags/</link>
+        <description>Recent content in Tags on SakuraSen&#39;s BLOG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>SakuraSen</copyright>
+        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="https://blog.sakurasen.cn/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Automation</title>
+        <link>https://blog.sakurasen.cn/en/tags/automation/</link>
+        <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sakurasen.cn/en/tags/automation/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Certd</title>
+        <link>https://blog.sakurasen.cn/en/tags/certd/</link>
+        <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sakurasen.cn/en/tags/certd/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SSL Certificates</title>
+        <link>https://blog.sakurasen.cn/en/tags/ssl-certificates/</link>
+        <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sakurasen.cn/en/tags/ssl-certificates/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

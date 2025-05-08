@@ -62,9 +62,7 @@
   font-weight: normal;
   margin-bottom: 5px;
 }
-.article-content .highlight {
-  background-color: #282c34;
-}
+
 // 文章页字体
 body, .article-content {
   font-family: 'Noto Serif SC', serif;
@@ -92,4 +90,24 @@ body, .article-page {
 .tk-avatar, .tk-avatar-img{
   height: 2.8em!important;
   width: 2.8em!important;
+}
+.highlight {
+  backdrop-filter:blur(222px);
+  background-color: transparent!important;
+  padding: 1em!important;
+}
+.highlight pre  {
+  text-wrap:initial;
+  border-radius: 0.75em;
+  font-weight: 300;
+  padding: 1em!important;
+  background-color: transparent!important;
+
+  box-shadow: var(--body-background) 0 0 8px;
+  color: var(--card-text-color-main)!important;
+}
+:root {
+  
+  --card-background: #f2f6f9;
+  --body-background: #dae0e5;
 }

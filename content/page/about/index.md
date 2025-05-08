@@ -3,18 +3,16 @@ title: 关于
 slug: about
 comments: false
 menu:
-    main: 
-        weight: -90
-        params:
-            icon: user
+  main:
+    weight: -90
+    params:
+      icon: user
 ---
 ## 关于我
+
 ![loli|315x100](https://loli.sakurasen.cn/@About?name=About&theme=asoul&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=0)
 
-![avatar](https://sakurasen.cn/icon)
-
-
-头像来自 [∞ TIMEs - 洛天依Official/星葵77 - 单曲 - 网易云音乐](https://music.163.com/#/song?id=1986743401&uct2=U2FsdGVkX1//kng+w9dWqK7aLGiPlRO6S7RyKStq/jA=)封面
+[∞ TIMEs - 洛天依Official/星葵77 - 单曲 - 网易云音乐](https://music.163.com/#/song?id=1986743401&uct2=U2FsdGVkX1//kng+w9dWqK7aLGiPlRO6S7RyKStq/jA=)封面
 
 目前高中在读。
 

@@ -1,0 +1,4 @@
+.obsidian/
+.hugo_build.lock
+..git*
+obs_sctipts/

@@ -107,7 +107,7 @@ docker compose up -d
 ![alt text](QQ_1746085981406.png)
 
 脚本内容如下
-```
+```js
 const certPem = ctx.self.cert.crt
 const certKey = ctx.self.cert.key
 
@@ -162,7 +162,8 @@ listen 443 ssl http2 ;
 ![alt text](QQ_1746093943855.png)
 
 然后打开站点配置文件，增加SSL证书目录
----
+
+```nginx
     ssl_certificate    证书目录;
     ssl_certificate_key    密钥目录;
     ssl_protocols TLSv1.1 TLSv1.2 TLSv1.3;
@@ -172,7 +173,7 @@ listen 443 ssl http2 ;
     ssl_session_timeout 10m;
     add_header Strict-Transport-Security "max-age=31536000";
     error_page 497  https://$host$request_uri;
----
+```
 
 ### CDN部署
 

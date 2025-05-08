@@ -92,10 +92,8 @@ Hugo_ **extended** _ 版本号 _ windows-amd64.zip
 下载完后放在一个文件夹中保存
 
 ### 配置环境变量
-![](20250505171943.png)
-![](20250505172014.png)
-![](20250505172039.png)
-![](20250505172156.png)
+
+![1](20250505171943.png) ![2](20250505172014.png) ![3](20250505172039.png) ![4](20250505172156.png)
 
 新建一个变量，输入你的Hugo所在目录
 
@@ -228,7 +226,7 @@ copyright: Example Person
 
 不是，哥们，不会你这个都不想修改吧
 
-```
+```yaml
 DefaultContentLanguage: zh-cn //修改为zh-cn，默认文章语言
 hasCJKLanguage: true  // 正确的文字统计
 languages: //多语言配置，按需配置
@@ -378,8 +376,9 @@ post
 
 新建一个md文件，将其命名为**index.md**
 
-在文件开头添加如下内容
-```
+在文件开头添加如下内容 **上下的横线不能去**
+
+```yaml
 ---
 title: 
 
@@ -409,7 +408,8 @@ categories:
     - 我思
     - 我得
 ```
-`image:` 封面
+`
+image:` 封面
 
 `description:` 描述
 
@@ -433,7 +433,7 @@ categories:
 
 如果你是原生Stack，看起来可能比较拥挤，推荐你增加：
 **themes\hugo-theme-stack\assets\scss\custom.scss**
-```
+```scss
 .archives-group {
 
   margin-top: 2em;
@@ -444,7 +444,7 @@ categories:
 ### 在主页添加Tags数字统计
 
 themes\hugo-theme-stack\layouts\partials\widget\tag-cloud.html
-```
+```html
 {{- $context := .Context -}}
 
 {{- $limit := default 10 .Params.limit -}}
@@ -493,7 +493,7 @@ themes\hugo-theme-stack\assets\ts\main.ts
 
 50-55行全部注释起来
 
-```
+```ts
                         /**
 
                         * articleDetails.style.background = `
@@ -516,7 +516,7 @@ themes\hugo-theme-stack\assets\ts\main.ts
 
 之前的归档界面那么大的长条那么小的图片有点难看，优化了一下去除图片
 **themes\hugo-theme-stack\assets\scss\custom.scss**
-```
+```scss
 .article-list--compact {
 
   align-items: center;
@@ -552,7 +552,7 @@ themes\hugo-theme-stack\assets\ts\main.ts
 
 byd意外发现挺好看，保留了
 
-```
+```scss
 .article-list--compact {
 
   align-items: center;
@@ -903,7 +903,7 @@ frontmatter:
 ### 加载进度条
 **hugo-theme-stack/layouts/partials/footer/custom.html**
 
-```
+```html
 <!-- layouts/partials/footer/custom.html -->
 <script
     src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
@@ -928,8 +928,7 @@ frontmatter:
 
 ### 代码块样式修改
 
-**hugo.yaml**
-
+{{<details hugo.yaml>}}
 ```
 markup:
 
@@ -991,21 +990,57 @@ markup:
 
         style: onedark
 ```
+{{</details>}}
+
 
 修改配置文件
 
 **themes\hugo-theme-stack\assets\scss\custom.scss**
 
-```
-.article-content .highlight {
+```scss
+.highlight {
 
-  background-color: #282c34;
+backdrop-filter:blur(222px);
+
+background-color: transparent!important;
+
+padding: 1em!important;
+
+}
+
+.highlight pre {
+
+text-wrap:initial;
+
+border-radius: 0.75em;
+
+font-weight: 300;
+
+padding: 1em!important;
+
+background-color: transparent!important;
+
+  
+
+box-shadow: var(--body-background) 0 0 8px;
+
+color: var(--card-text-color-main)!important;
 
 }
 ```
 
-新增样式
+我推荐你再把背景颜色和卡片背景改一下，不然有点闪光弹了
 
+```scss
+:root {
+
+--card-background: #f2f6f9;
+
+--body-background: #dae0e5;
+
+}
+
+```
 ### 网站字体修改
 
 前往 [Google Fonts](https://fonts.google.com/) 

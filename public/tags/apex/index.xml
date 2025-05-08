@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>APEX on 森语 - SenBlog</title>
+        <link>https://blog.sakurasen.cn/tags/apex/</link>
+        <description>Recent content in APEX on 森语 - SenBlog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>SakuraSen</copyright>
+        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="https://blog.sakurasen.cn/tags/apex/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>警惕大残陷阱，如何在APEX中实时查看队友伤害</title>
+        <link>https://blog.sakurasen.cn/p/373/</link>
+        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sakurasen.cn/p/373/</guid>
+        <description>&lt;img src="https://blog.sakurasen.cn/p/373/20230812110138apex-legends-keyart457.jpg" alt="Featured image of post 警惕大残陷阱，如何在APEX中实时查看队友伤害" /&gt;&lt;h3 id=&#34;前言&#34;&gt;前言
+&lt;/h3&gt;&lt;p&gt;在很多时候，无论是单排还是开黑，总是想在游戏还未结算时就看到队友伤害，无论是单排打完一波架后查看队友成分，好让自己心中有个数；还是在组排中打完一波架后实时开庭惩罚没干活的队友。而本章就推荐大家使用软件blitz在游戏中查看队友数据。&lt;/p&gt;
+&lt;h3 id=&#34;何为blitz&#34;&gt;何为blitz
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/373/20240414172658%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_14-4-2024_163032_blitz.gg_602-1024x527.jpeg&#34;
+	width=&#34;1024&#34;
+	height=&#34;527&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/373/20240414172658%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_14-4-2024_163032_blitz.gg_602-1024x527_hu_5af5224d34e2a671.jpeg 480w, https://blog.sakurasen.cn/p/373/20240414172658%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_14-4-2024_163032_blitz.gg_602-1024x527_hu_b599ae1bd513f34.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;BLITZ&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;194&#34;
+		data-flex-basis=&#34;466px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Blitz为大多数游戏提供了支持，只需下载安装即可开始使用。&lt;/p&gt;
+&lt;p&gt;以APEX为例，Blitz将会记录您的个人数据，包括比赛记录，武器使用记录，伤害，爆头率等。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/373/20240414172712QQ%E6%88%AA%E5%9B%BE20240414170347550-1024x565.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;565&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/373/20240414172712QQ%E6%88%AA%E5%9B%BE20240414170347550-1024x565_hu_fe287d7536d0c72.png 480w, https://blog.sakurasen.cn/p/373/20240414172712QQ%E6%88%AA%E5%9B%BE20240414170347550-1024x565_hu_e2d13f44292848ae.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;434px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;如何使用&#34;&gt;如何使用
+&lt;/h3&gt;&lt;p&gt;打开官网blitz.gg，点击下载按钮下载即可。&lt;/p&gt;
+&lt;p&gt;打开后软件会自动安装并启动&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/373/20240414172720QQ%E6%88%AA%E5%9B%BE20240414163649952-1024x613.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;613&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/373/20240414172720QQ%E6%88%AA%E5%9B%BE20240414163649952-1024x613_hu_460f0d0b780fbc84.png 480w, https://blog.sakurasen.cn/p/373/20240414172720QQ%E6%88%AA%E5%9B%BE20240414163649952-1024x613_hu_f7d93cfb113b8b39.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;400px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这时只需启动APEX，软件将会自动检测您的个人信息并跳出选项供你开关功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;动态统计
+在对局中显示您在当局中的表现数据，也可切换至显示队友数据&lt;/li&gt;
+&lt;li&gt;英雄选择
+在选择英雄时将会根据您历史游玩记录来根据各个英雄场伤/kd来推荐您的英雄&lt;/li&gt;
+&lt;li&gt;赛后明细
+在一场比赛结束后，赛后明细能够显示您的小队排名与比赛数据，并于历史数据做比较。&lt;/li&gt;
+&lt;li&gt;主播叠加层
+将会生成一个链接以导入OBS，将会显示近几场数据，对于主播有所帮助&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;设置&#34;&gt;设置
+&lt;/h3&gt;&lt;p&gt;进入大厅，你会看到一个Blitz悬浮窗&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/373/202404141727293fee69a7eab04284b73dcf6cdfb200af-1866-1024x576.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;576&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/373/202404141727293fee69a7eab04284b73dcf6cdfb200af-1866-1024x576_hu_cf41423da9cd07b7.png 480w, https://blog.sakurasen.cn/p/373/202404141727293fee69a7eab04284b73dcf6cdfb200af-1866-1024x576_hu_db1056b94e6910bd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;
+如果没有此悬浮窗，可以尝试开几把游戏，此悬浮窗展示了您的近期平均数据，你可以使用Ctrl+Tab快捷键隐藏。&lt;/p&gt;
+&lt;p&gt;进入一场游戏时，若开启了“动态统计”功能，则此软件默认只显示自己的数据，若想查看游戏内队友的数据，则需要按ESC，点击悬浮窗旁边的箭头&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/373/20240414172743027c6313054fdb00580caa07e9e6c16d495.png&#34;
+	width=&#34;189&#34;
+	height=&#34;424&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/373/20240414172743027c6313054fdb00580caa07e9e6c16d495_hu_47f152c668565e17.png 480w, https://blog.sakurasen.cn/p/373/20240414172743027c6313054fdb00580caa07e9e6c16d495_hu_b70c8e0c993cc0a5.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;44&#34;
+		data-flex-basis=&#34;106px&#34;
+	
+&gt;  &lt;img src=&#34;https://blog.sakurasen.cn/p/373/20240414172745ee7a7b786c5a421f87643ddcdb2d65c2209.png&#34;
+	width=&#34;257&#34;
+	height=&#34;157&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/373/20240414172745ee7a7b786c5a421f87643ddcdb2d65c2209_hu_b8d597e652c50bd7.png 480w, https://blog.sakurasen.cn/p/373/20240414172745ee7a7b786c5a421f87643ddcdb2d65c2209_hu_8c9e3523da39b00.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;392px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这样即可切换至队友数据面板了&lt;/p&gt;
+&lt;p&gt;在此面板中，展示了队友的伤害(DMG)，承受的伤害(DT)，击杀与助攻(K/A)，分数(SCORE)&lt;/p&gt;
+&lt;p&gt;此面板为实时展示。&lt;/p&gt;
+&lt;p&gt;在你进行完一场比赛后，此软件会记录您的比赛，你可以打开软件查看比赛记录，也可以查看武器数据，各个传奇数据&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/373/20240414172804QQ%E6%88%AA%E5%9B%BE20240414170347636-1024x565.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;565&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/373/20240414172804QQ%E6%88%AA%E5%9B%BE20240414170347636-1024x565_hu_fe287d7536d0c72.png 480w, https://blog.sakurasen.cn/p/373/20240414172804QQ%E6%88%AA%E5%9B%BE20240414170347636-1024x565_hu_e2d13f44292848ae.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;434px&#34;
+	
+&gt;  &lt;img src=&#34;https://blog.sakurasen.cn/p/373/20240414172810QQ%E6%88%AA%E5%9B%BE20240414170740428-1024x565.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;565&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/373/20240414172810QQ%E6%88%AA%E5%9B%BE20240414170740428-1024x565_hu_1dbdd64c1c186384.png 480w, https://blog.sakurasen.cn/p/373/20240414172810QQ%E6%88%AA%E5%9B%BE20240414170740428-1024x565_hu_102b81598315d8d3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;434px&#34;
+	
+&gt;  &lt;img src=&#34;https://blog.sakurasen.cn/p/373/20240414172815QQ%E6%88%AA%E5%9B%BE20240414170735511-1024x565.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;565&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/373/20240414172815QQ%E6%88%AA%E5%9B%BE20240414170735511-1024x565_hu_298cd42dfd78fcbd.png 480w, https://blog.sakurasen.cn/p/373/20240414172815QQ%E6%88%AA%E5%9B%BE20240414170735511-1024x565_hu_45ad211ea92798f0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;434px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;也可以选择一场比赛记录查看详细内容&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/373/20240414172824QQ%E6%88%AA%E5%9B%BE20240414170327277-1024x987.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;987&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/373/20240414172824QQ%E6%88%AA%E5%9B%BE20240414170327277-1024x987_hu_9b1d1f4380f92b69.png 480w, https://blog.sakurasen.cn/p/373/20240414172824QQ%E6%88%AA%E5%9B%BE20240414170327277-1024x987_hu_d061c813e748547f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;103&#34;
+		data-flex-basis=&#34;248px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;一些疑问&#34;&gt;一些疑问
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;使用此软件是否会被EA封禁&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.blitz.gg/hc/en-us/articles/6066587189775-Compliance-with-Rules-and-Regulations-for-Apex-Legends&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;Compliance with Rules and Regulations for Apex Legends – Blitz&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+
+此软件官网说明自己与EA合作详情，此软件也被大多职业选手所使用。&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>APEX自用画质cfg/启动项</title>
+        <link>https://blog.sakurasen.cn/p/246/</link>
+        <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sakurasen.cn/p/246/</guid>
+        <description>&lt;img src="https://blog.sakurasen.cn/p/246/20230812110138apex-legends-keyart457.jpg" alt="Featured image of post APEX自用画质cfg/启动项" /&gt;&lt;h3 id=&#34;画质cfg&#34;&gt;画质CFG:
+&lt;/h3&gt;&lt;p&gt;Win+R输入 &lt;code&gt;%USERPROFILE%\Saved Games\Respawn\Apex\local&lt;/code&gt; &lt;br&gt;
+找到&lt;code&gt;videoconfig.txt&lt;/code&gt; &lt;br&gt;
+复制粘贴：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;#34;VideoConfig&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.cl_gib_allow&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.cl_particle_fallback_base&amp;#34;		&amp;#34;-999999&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.cl_particle_fallback_multiplier&amp;#34;		&amp;#34;-999999&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.cl_ragdoll_maxcount&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.cl_ragdoll_self_collision&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_forceaniso&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_mip_linear&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.stream_memory&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_picmip&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.particle_cpu_level&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.r_createmodeldecals&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.r_decals&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.r_lod_switch_scale&amp;#34;		&amp;#34;0.300000&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.shadow_enable&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.shadow_depth_dimen_min&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.shadow_depth_upres_factor_max&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.shadow_maxdynamic&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.ssao_enabled&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.ssao_downsample&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.dvs_enable&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.dvs_gpuframetime_min&amp;#34;		&amp;#34;15000&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.dvs_gpuframetime_max&amp;#34;		&amp;#34;16500&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.last_display_width&amp;#34;		&amp;#34;2560&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.last_display_height&amp;#34;		&amp;#34;1440&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.nowindowborder&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.fullscreen&amp;#34;		&amp;#34;1&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.defaultres&amp;#34;		&amp;#34;2560&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.defaultresheight&amp;#34;		&amp;#34;1440&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.volumetric_lighting&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.volumetric_fog&amp;#34;		&amp;#34;2&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_vsync_mode&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_backbuffer_count&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_antialias_mode&amp;#34;		&amp;#34;12&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.csm_enabled&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.csm_coverage&amp;#34;		&amp;#34;1&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.csm_cascade_res&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.fadeDistScale&amp;#34;		&amp;#34;1.000000&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.dvs_supersample_enable&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.new_shadow_settings&amp;#34;		&amp;#34;1&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.gamma&amp;#34;		&amp;#34;1.000000&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.configversion&amp;#34;		&amp;#34;7&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.dx_version_check_timestamp&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;其中&lt;strong&gt;2560&lt;/strong&gt;和&lt;strong&gt;1440&lt;/strong&gt;为自己屏幕分辨率&lt;/p&gt;
+&lt;h3 id=&#34;启动项&#34;&gt;启动项：
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;+fps_max unlimited +miles_language english +cl_showpos &amp;quot;1&amp;quot; -freq 165 +mat_compressedtextures 1 -dxlevel 95&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;-freq 165 //165为自己屏幕刷新率
++miles_language english//修改语音为英文&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>APEX 传家宝如何购买便宜</title>
+        <link>https://blog.sakurasen.cn/p/206/</link>
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sakurasen.cn/p/206/</guid>
+        <description>&lt;img src="https://blog.sakurasen.cn/p/206/20230615052433image414.png" alt="Featured image of post APEX 传家宝如何购买便宜" /&gt;&lt;h3 id=&#34;前言&#34;&gt;前言
+&lt;/h3&gt;&lt;p&gt;由于我是地平线玩家，最近有爆料称地平线传家宝将在21号上架，所以我就琢磨了一下怎么充值最划算！&lt;/p&gt;
+&lt;h3 id=&#34;开始&#34;&gt;开始
+&lt;/h3&gt;&lt;p&gt;传家宝都是通过收集活动获取的，你只需要在商城内购买24个活动箱子，那么就会获得传家宝。&lt;/p&gt;
+&lt;p&gt;那么24个活动箱子需要多少金币呢？&lt;/p&gt;
+&lt;p&gt;答案是16800金币，如果你直接买，则需要 498+298=796元（余1400金币）
+&lt;img src=&#34;https://blog.sakurasen.cn/p/206/20230615052433image414-1024x576.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;576&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/206/20230615052433image414-1024x576_hu_db1bc1d7b5957a5d.png 480w, https://blog.sakurasen.cn/p/206/20230615052433image414-1024x576_hu_1757e3fdb7833ea2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;商城图片&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;
+但，若你先购买商城内&lt;strong&gt;两个捆绑包&lt;/strong&gt;（一共7500金币）这时候就会获得10个箱子和2个皮肤，届时，你只需要购买&lt;strong&gt;12个箱子&lt;/strong&gt;（8400金币）即可&lt;/p&gt;
+&lt;p&gt;所以总花费 &lt;strong&gt;15900&lt;/strong&gt; 金币&lt;/p&gt;
+&lt;p&gt;你需要购买 498+248=746 ，但我们这时候还缺50金币，你要么购买34挡位的，或者再买个通行证余下50金币，亦或者做活动领一个传家宝箱子~还或者花800金属买个皮肤都行。&lt;/p&gt;
+&lt;p&gt;这就是最低价格了吗？当然不是！&lt;/p&gt;
+&lt;p&gt;开通EA PLAY即可9折充值！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/206/updata20240510042707.png&#34;
+	width=&#34;430&#34;
+	height=&#34;90&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/206/updata20240510042707_hu_bcb25b5ce2a38ba5.png 480w, https://blog.sakurasen.cn/p/206/updata20240510042707_hu_5addbf97d626f30d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;EA Play&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;477&#34;
+		data-flex-basis=&#34;1146px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;现在EA PLAY售价38，开通后充值只需9折，那么我们总共花费 746×0.9+38=709.4！&lt;/p&gt;
+&lt;p&gt;若你会倒余额，那么只需570.69+32.3=602.99（85折）&lt;/p&gt;
+&lt;p&gt;按照以上思路，如果你有800制造金属，就可以少花700金币。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

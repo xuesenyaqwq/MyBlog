@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>画质文件 on 森语 - SenBlog</title>
+        <link>https://blog.sakurasen.cn/tags/%E7%94%BB%E8%B4%A8%E6%96%87%E4%BB%B6/</link>
+        <description>Recent content in 画质文件 on 森语 - SenBlog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>SakuraSen</copyright>
+        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="https://blog.sakurasen.cn/tags/%E7%94%BB%E8%B4%A8%E6%96%87%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>APEX自用画质cfg/启动项</title>
+        <link>https://blog.sakurasen.cn/p/246/</link>
+        <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sakurasen.cn/p/246/</guid>
+        <description>&lt;img src="https://blog.sakurasen.cn/p/246/20230812110138apex-legends-keyart457.jpg" alt="Featured image of post APEX自用画质cfg/启动项" /&gt;&lt;h3 id=&#34;画质cfg&#34;&gt;画质CFG:
+&lt;/h3&gt;&lt;p&gt;Win+R输入 &lt;code&gt;%USERPROFILE%\Saved Games\Respawn\Apex\local&lt;/code&gt; &lt;br&gt;
+找到&lt;code&gt;videoconfig.txt&lt;/code&gt; &lt;br&gt;
+复制粘贴：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;#34;VideoConfig&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.cl_gib_allow&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.cl_particle_fallback_base&amp;#34;		&amp;#34;-999999&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.cl_particle_fallback_multiplier&amp;#34;		&amp;#34;-999999&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.cl_ragdoll_maxcount&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.cl_ragdoll_self_collision&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_forceaniso&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_mip_linear&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.stream_memory&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_picmip&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.particle_cpu_level&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.r_createmodeldecals&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.r_decals&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.r_lod_switch_scale&amp;#34;		&amp;#34;0.300000&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.shadow_enable&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.shadow_depth_dimen_min&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.shadow_depth_upres_factor_max&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.shadow_maxdynamic&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.ssao_enabled&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.ssao_downsample&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.dvs_enable&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.dvs_gpuframetime_min&amp;#34;		&amp;#34;15000&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.dvs_gpuframetime_max&amp;#34;		&amp;#34;16500&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.last_display_width&amp;#34;		&amp;#34;2560&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.last_display_height&amp;#34;		&amp;#34;1440&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.nowindowborder&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.fullscreen&amp;#34;		&amp;#34;1&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.defaultres&amp;#34;		&amp;#34;2560&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.defaultresheight&amp;#34;		&amp;#34;1440&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.volumetric_lighting&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.volumetric_fog&amp;#34;		&amp;#34;2&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_vsync_mode&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_backbuffer_count&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.mat_antialias_mode&amp;#34;		&amp;#34;12&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.csm_enabled&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.csm_coverage&amp;#34;		&amp;#34;1&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.csm_cascade_res&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.fadeDistScale&amp;#34;		&amp;#34;1.000000&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.dvs_supersample_enable&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.new_shadow_settings&amp;#34;		&amp;#34;1&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.gamma&amp;#34;		&amp;#34;1.000000&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.configversion&amp;#34;		&amp;#34;7&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#34;setting.dx_version_check_timestamp&amp;#34;		&amp;#34;0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;其中&lt;strong&gt;2560&lt;/strong&gt;和&lt;strong&gt;1440&lt;/strong&gt;为自己屏幕分辨率&lt;/p&gt;
+&lt;h3 id=&#34;启动项&#34;&gt;启动项：
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;+fps_max unlimited +miles_language english +cl_showpos &amp;quot;1&amp;quot; -freq 165 +mat_compressedtextures 1 -dxlevel 95&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;-freq 165 //165为自己屏幕刷新率
++miles_language english//修改语音为英文&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

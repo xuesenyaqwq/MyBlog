@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Umami on 森语 - SenBlog</title>
+        <link>https://blog.sakurasen.cn/tags/umami/</link>
+        <description>Recent content in Umami on 森语 - SenBlog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>SakuraSen</copyright>
+        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="https://blog.sakurasen.cn/tags/umami/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>使用Umami来记录您的网站访问数据</title>
+        <link>https://blog.sakurasen.cn/p/2024052401/</link>
+        <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.sakurasen.cn/p/2024052401/</guid>
+        <description>&lt;img src="https://blog.sakurasen.cn/p/2024052401/updata20240524015206.png" alt="Featured image of post 使用Umami来记录您的网站访问数据" /&gt;&lt;h1 id=&#34;使用umami来记录您的网站访问数据&#34;&gt;使用Umami来记录您的网站访问数据
+&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
+&lt;/h2&gt;&lt;p&gt;在我们建站时，总需要一些工具来分析自己的网站有多少用户浏览，以及这些用户来源。&lt;/p&gt;
+&lt;p&gt;目前，也有一些提供此类服务的平台，例如&lt;a class=&#34;link&#34; href=&#34;https://tongji.baidu.com/web5/welcome/login&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;百度&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+，&lt;a class=&#34;link&#34; href=&#34;https://analytics.google.com/analytics/web/provision/#/provision&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;谷歌&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+等公司。&lt;/p&gt;
+&lt;p&gt;而本篇文章将向您推荐目前本网站所使用的自建统计服务&lt;a class=&#34;link&#34; href=&#34;https://github.com/umami-software/umami&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;umami&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;开始&#34;&gt;开始
+&lt;/h2&gt;&lt;h3 id=&#34;关于umami&#34;&gt;关于UMAMI
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.is/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;官方网站&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+ | &lt;a class=&#34;link&#34; href=&#34;https://umami.is/docs/about&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;官方文档&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+ | &lt;a class=&#34;link&#34; href=&#34;https://github.com/umami-software/umami&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;Github&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024052401/updatascreencapture-s-yzhserver-cn-websites-d8581293-35ee-4261-ade6-57635763d972-2024-05-24-01_58_24.png&#34;
+	width=&#34;2560&#34;
+	height=&#34;2837&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/2024052401/updatascreencapture-s-yzhserver-cn-websites-d8581293-35ee-4261-ade6-57635763d972-2024-05-24-01_58_24_hu_d3c3e9bd649f0217.png 480w, https://blog.sakurasen.cn/p/2024052401/updatascreencapture-s-yzhserver-cn-websites-d8581293-35ee-4261-ade6-57635763d972-2024-05-24-01_58_24_hu_eab41a12de181c74.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;90&#34;
+		data-flex-basis=&#34;216px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;本地部署&#34;&gt;本地部署
+&lt;/h3&gt;&lt;h4 id=&#34;使用源代码安装&#34;&gt;使用源代码安装
+&lt;/h4&gt;&lt;h5 id=&#34;环境要求&#34;&gt;环境要求
+&lt;/h5&gt;&lt;p&gt;Node.js ≥ 18.17
+MySQL ≥ 8.0 或 PostgreSQL ≥ 12.14&lt;/p&gt;
+&lt;h5 id=&#34;开始安装&#34;&gt;开始安装
+&lt;/h5&gt;&lt;h6 id=&#34;安装yarn&#34;&gt;安装yarn
+&lt;/h6&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install -g yarn
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h6 id=&#34;获取源代码并安装&#34;&gt;获取源代码并安装
+&lt;/h6&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/umami-software/umami.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd umami
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yarn install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;当你安装完后，你需要在umami的目录下新建一个&lt;code&gt;.env&lt;/code&gt;文件来记录链接数据库的信息&lt;/p&gt;
+&lt;h6 id=&#34;env文件需要填写的内容&#34;&gt;.env文件需要填写的内容：
+&lt;/h6&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;DATABASE_URL={connection url}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;若您是MySQL数据库，则填写：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;DATABASE_URL=mysql://username:mypassword@localhost:3306/mydb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;若您是PostgreSQL数据库，则填写：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;DATABASE_URL=postgresql://username:mypassword@localhost:5432/mydb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;其中，username为数据库用户名，mypassword为数据库密码，localhost为服务器地址，本地部署无需修改，3306/5432为数据库端口，mydb为数据库名。&lt;/p&gt;
+&lt;h6 id=&#34;开始构建&#34;&gt;开始构建
+&lt;/h6&gt;&lt;p&gt;一切无误后，输入&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yarn build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;开始构建umami&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024052401/updata20240524014523.png&#34;
+	width=&#34;571&#34;
+	height=&#34;515&#34;
+	srcset=&#34;https://blog.sakurasen.cn/p/2024052401/updata20240524014523_hu_6625d8e6a965d57b.png 480w, https://blog.sakurasen.cn/p/2024052401/updata20240524014523_hu_730bd761e729a564.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;110&#34;
+		data-flex-basis=&#34;266px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;构建完成后输入 yarn start 即可启动程序。&lt;/p&gt;
+&lt;p&gt;默认端口为 3000 ，默认用户名为admin，默认密码为umami。&lt;/p&gt;
+&lt;h6 id=&#34;使用pm2开机自启&#34;&gt;使用pm2开机自启
+&lt;/h6&gt;&lt;p&gt;官方推荐使用pm2来管理此程序&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yarn global add pm2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd umami
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pm2 start yarn --name umami -- start
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pm2 startup
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pm2 save
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;完成后即可开机自启&lt;/p&gt;
+&lt;h4 id=&#34;使用docker安装&#34;&gt;使用Docker安装
+&lt;/h4&gt;&lt;h5 id=&#34;开始安装-1&#34;&gt;开始安装
+&lt;/h5&gt;&lt;h6 id=&#34;postgresql&#34;&gt;postgresql
+&lt;/h6&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker pull docker.umami.is/umami-software/umami:postgresql-latest
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h6 id=&#34;mysql&#34;&gt;MySQL
+&lt;/h6&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker pull docker.umami.is/umami-software/umami:mysql-latest
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;其他&#34;&gt;其他
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.is/docs/environment-variables&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;环境变量&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
