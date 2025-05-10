@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>云服务器测评 on 森语 - SenBlog</title>
-        <link>https://blog.sakurasen.cn/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B5%8B%E8%AF%84/</link>
+        <link>http://localhost:1313/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B5%8B%E8%AF%84/</link>
         <description>Recent content in 云服务器测评 on 森语 - SenBlog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="https://blog.sakurasen.cn/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B5%8B%E8%AF%84/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B5%8B%E8%AF%84/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>雨云湖北十堰云服务器测评</title>
-        <link>https://blog.sakurasen.cn/p/2024052701/</link>
+        <link>http://localhost:1313/p/2024052701/</link>
         <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/p/2024052701/</guid>
-        <description>&lt;img src="https://blog.sakurasen.cn/p/2024052701/rainyun.svg" alt="Featured image of post 雨云湖北十堰云服务器测评" /&gt;&lt;h1 id=&#34;前言&#34;&gt;前言
+        <guid>http://localhost:1313/p/2024052701/</guid>
+        <description>&lt;img src="http://localhost:1313/p/2024052701/rainyun.svg" alt="Featured image of post 雨云湖北十堰云服务器测评" /&gt;&lt;h1 id=&#34;前言&#34;&gt;前言
 &lt;/h1&gt;&lt;p&gt;此文章为服务器测评类文章，抱着客观的态度来测评任何一台服务器，绝无任何隐瞒欺骗行为！欢迎各位留言提醒。可能有部分内容做的不准确与详细，可以留言提问补充&amp;gt;w&amp;lt;。&lt;/p&gt;
 &lt;h1 id=&#34;广告&#34;&gt;广告
 &lt;/h1&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.sakurasen.cn/rainyun&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;雨云&lt;/a&gt;
@@ -36,10 +36,10 @@
 享更多折扣~若已注册，填写邀请码&lt;strong&gt;Sakura&lt;/strong&gt;可同享折扣&lt;/p&gt;
 &lt;h1 id=&#34;雨云&#34;&gt;雨云
 &lt;/h1&gt;&lt;p&gt;作为云服务供应商，雨云是我从一开始就使用的产品。从最初的网站上线至今，一直使用的是雨云的服务。也看着雨云从一开始的倒卖服务器到自己成立公司。为什么选择雨云，那就是雨云便宜且相对稳定~
-&lt;img src=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214854.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2024052701/updata20240527214854.png&#34;
 	width=&#34;309&#34;
 	height=&#34;94&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214854_hu_c14bbba52b99d57f.png 480w, https://blog.sakurasen.cn/p/2024052701/updata20240527214854_hu_a73efc92277b9b25.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024052701/updata20240527214854_hu_c14bbba52b99d57f.png 480w, http://localhost:1313/p/2024052701/updata20240527214854_hu_a73efc92277b9b25.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img&#34;
@@ -55,10 +55,10 @@
 &lt;/h2&gt;&lt;p&gt;本次测评服务器为：
 湖北十堰云服务器节点4 | Xeon® Gold - KVM 标配版 | 2vCPU-2GB内存-30GB硬盘-10Mbps上传-20Mbps下载
 独立IP，官方宣传400G高防，价格为50/月，弹性硬盘可扩容至250GB
-&lt;img src=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214719.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2024052701/updata20240527214719.png&#34;
 	width=&#34;570&#34;
 	height=&#34;174&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214719_hu_2641f8bb953112d9.png 480w, https://blog.sakurasen.cn/p/2024052701/updata20240527214719_hu_d016624ca6f17d25.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024052701/updata20240527214719_hu_2641f8bb953112d9.png 480w, http://localhost:1313/p/2024052701/updata20240527214719_hu_d016624ca6f17d25.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img1&#34;
@@ -72,10 +72,10 @@
 赞助商：我自己&lt;/p&gt;
 &lt;h2 id=&#34;性能&#34;&gt;性能
 &lt;/h2&gt;&lt;h3 id=&#34;机器配置io读写网络测速&#34;&gt;机器配置，IO读写，网络测速
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214737.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024052701/updata20240527214737.png&#34;
 	width=&#34;584&#34;
 	height=&#34;810&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214737_hu_dd40debd7b2a4541.png 480w, https://blog.sakurasen.cn/p/2024052701/updata20240527214737_hu_13cfc0f4abf42538.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024052701/updata20240527214737_hu_dd40debd7b2a4541.png 480w, http://localhost:1313/p/2024052701/updata20240527214737_hu_13cfc0f4abf42538.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img2&#34;
@@ -85,10 +85,10 @@
 		data-flex-grow=&#34;72&#34;
 		data-flex-basis=&#34;173px&#34;
 	
-&gt; &lt;img src=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214747.png&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/2024052701/updata20240527214747.png&#34;
 	width=&#34;454&#34;
 	height=&#34;260&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214747_hu_980be1859ae20922.png 480w, https://blog.sakurasen.cn/p/2024052701/updata20240527214747_hu_a276c965b702fbf5.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024052701/updata20240527214747_hu_980be1859ae20922.png 480w, http://localhost:1313/p/2024052701/updata20240527214747_hu_a276c965b702fbf5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img3&#34;
@@ -101,10 +101,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;测试结果与宣传结果无太大差距，在误差范围内。&lt;/p&gt;
 &lt;h3 id=&#34;ping速度&#34;&gt;Ping速度
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214810.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024052701/updata20240527214810.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;6378&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214810_hu_8cfb591c52190c9c.png 480w, https://blog.sakurasen.cn/p/2024052701/updata20240527214810_hu_ab73d0f5fa46bbbe.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024052701/updata20240527214810_hu_8cfb591c52190c9c.png 480w, http://localhost:1313/p/2024052701/updata20240527214810_hu_ab73d0f5fa46bbbe.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img4&#34;
@@ -116,10 +116,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;网站速度&#34;&gt;网站速度
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214835.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024052701/updata20240527214835.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;6378&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024052701/updata20240527214835_hu_f3f4687d66cd4732.png 480w, https://blog.sakurasen.cn/p/2024052701/updata20240527214835_hu_c851be16de336bed.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024052701/updata20240527214835_hu_f3f4687d66cd4732.png 480w, http://localhost:1313/p/2024052701/updata20240527214835_hu_c851be16de336bed.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;img5&#34;

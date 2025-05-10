@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Adobe on 森语 - SenBlog</title>
-        <link>https://blog.sakurasen.cn/tags/adobe/</link>
+        <link>http://localhost:1313/tags/adobe/</link>
         <description>Recent content in Adobe on 森语 - SenBlog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="https://blog.sakurasen.cn/tags/adobe/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/adobe/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Pr导入flac音频文件插件</title>
-        <link>https://blog.sakurasen.cn/p/323/</link>
+        <link>http://localhost:1313/p/323/</link>
         <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/p/323/</guid>
-        <description>&lt;img src="https://blog.sakurasen.cn/p/323/129795806_p0.jpg" alt="Featured image of post Pr导入flac音频文件插件" /&gt;&lt;p&gt;封面来源：&lt;a class=&#34;link&#34; href=&#34;https://www.pixiv.net/artworks/129795806&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;#イラスト To Where Our Blue is - Android/アンドロイド的插画 - pixiv&lt;/a&gt;
+        <guid>http://localhost:1313/p/323/</guid>
+        <description>&lt;img src="http://localhost:1313/p/323/129795806_p0.jpg" alt="Featured image of post Pr导入flac音频文件插件" /&gt;&lt;p&gt;封面来源：&lt;a class=&#34;link&#34; href=&#34;https://www.pixiv.net/artworks/129795806&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;#イラスト To Where Our Blue is - Android/アンドロイド的插画 - pixiv&lt;/a&gt;
 
 &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
         xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
@@ -47,10 +47,10 @@
 &lt;/h3&gt;&lt;p&gt;打开Pr插件文件夹，以2023版本为例&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;C:\Program Files\Adobe\Adobe Premiere Pro 2023\PlugIns\Common&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;将下载的压缩包内的&lt;strong&gt;Ogg.prm&lt;/strong&gt;放入此文件夹中
-&lt;img src=&#34;https://blog.sakurasen.cn/p/323/20240409025125image501-1024x366.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/323/20240409025125image501-1024x366.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;366&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/323/20240409025125image501-1024x366_hu_2d54fbc00336031d.png 480w, https://blog.sakurasen.cn/p/323/20240409025125image501-1024x366_hu_db373a83935b1279.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/323/20240409025125image501-1024x366_hu_2d54fbc00336031d.png 480w, http://localhost:1313/p/323/20240409025125image501-1024x366_hu_db373a83935b1279.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;IMG&#34;

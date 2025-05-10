@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>充值 on 森语 - SenBlog</title>
-        <link>https://blog.sakurasen.cn/tags/%E5%85%85%E5%80%BC/</link>
+        <link>http://localhost:1313/tags/%E5%85%85%E5%80%BC/</link>
         <description>Recent content in 充值 on 森语 - SenBlog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="https://blog.sakurasen.cn/tags/%E5%85%85%E5%80%BC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%85%85%E5%80%BC/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>APEX 传家宝如何购买便宜</title>
-        <link>https://blog.sakurasen.cn/p/206/</link>
+        <link>http://localhost:1313/p/206/</link>
         <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/p/206/</guid>
-        <description>&lt;img src="https://blog.sakurasen.cn/p/206/20230615052433image414.png" alt="Featured image of post APEX 传家宝如何购买便宜" /&gt;&lt;h3 id=&#34;前言&#34;&gt;前言
+        <guid>http://localhost:1313/p/206/</guid>
+        <description>&lt;img src="http://localhost:1313/p/206/20230615052433image414.png" alt="Featured image of post APEX 传家宝如何购买便宜" /&gt;&lt;h3 id=&#34;前言&#34;&gt;前言
 &lt;/h3&gt;&lt;p&gt;由于我是地平线玩家，最近有爆料称地平线传家宝将在21号上架，所以我就琢磨了一下怎么充值最划算！&lt;/p&gt;
 &lt;h3 id=&#34;开始&#34;&gt;开始
 &lt;/h3&gt;&lt;p&gt;传家宝都是通过收集活动获取的，你只需要在商城内购买24个活动箱子，那么就会获得传家宝。&lt;/p&gt;
 &lt;p&gt;那么24个活动箱子需要多少金币呢？&lt;/p&gt;
 &lt;p&gt;答案是16800金币，如果你直接买，则需要 498+298=796元（余1400金币）
-&lt;img src=&#34;https://blog.sakurasen.cn/p/206/20230615052433image414-1024x576.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/206/20230615052433image414-1024x576.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;576&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/206/20230615052433image414-1024x576_hu_db1bc1d7b5957a5d.png 480w, https://blog.sakurasen.cn/p/206/20230615052433image414-1024x576_hu_1757e3fdb7833ea2.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/206/20230615052433image414-1024x576_hu_db1bc1d7b5957a5d.png 480w, http://localhost:1313/p/206/20230615052433image414-1024x576_hu_1757e3fdb7833ea2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;商城图片&#34;
@@ -38,10 +38,10 @@
 &lt;p&gt;你需要购买 498+248=746 ，但我们这时候还缺50金币，你要么购买34挡位的，或者再买个通行证余下50金币，亦或者做活动领一个传家宝箱子~还或者花800金属买个皮肤都行。&lt;/p&gt;
 &lt;p&gt;这就是最低价格了吗？当然不是！&lt;/p&gt;
 &lt;p&gt;开通EA PLAY即可9折充值！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/206/updata20240510042707.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/206/updata20240510042707.png&#34;
 	width=&#34;430&#34;
 	height=&#34;90&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/206/updata20240510042707_hu_bcb25b5ce2a38ba5.png 480w, https://blog.sakurasen.cn/p/206/updata20240510042707_hu_5addbf97d626f30d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/206/updata20240510042707_hu_bcb25b5ce2a38ba5.png 480w, http://localhost:1313/p/206/updata20240510042707_hu_5addbf97d626f30d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;EA Play&#34;

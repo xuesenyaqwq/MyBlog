@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on SakuraSen&#39;s BLOG</title>
-        <link>https://blog.sakurasen.cn/en/categories/</link>
+        <link>http://localhost:1313/en/categories/</link>
         <description>Recent content in Categories on SakuraSen&#39;s BLOG</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="https://blog.sakurasen.cn/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Epiphanies</title>
-        <link>https://blog.sakurasen.cn/en/categories/%E6%88%91%E8%A7%81/</link>
+        <link>http://localhost:1313/en/categories/%E6%88%91%E8%A7%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/categories/%E6%88%91%E8%A7%81/</guid>
-        <description>&lt;img src="https://blog.sakurasen.cn/categories/%E6%88%91%E8%A7%81/witness.jpg" alt="Featured image of post Epiphanies" /&gt;</description>
+        <guid>http://localhost:1313/en/categories/%E6%88%91%E8%A7%81/</guid>
+        <description>&lt;img src="http://localhost:1313/categories/%E6%88%91%E8%A7%81/witness.jpg" alt="Featured image of post Epiphanies" /&gt;</description>
         </item>
         <item>
         <title>Harvests</title>
-        <link>https://blog.sakurasen.cn/en/categories/%E6%88%91%E5%BE%97/</link>
+        <link>http://localhost:1313/en/categories/%E6%88%91%E5%BE%97/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/categories/%E6%88%91%E5%BE%97/</guid>
-        <description>&lt;img src="https://blog.sakurasen.cn/categories/%E6%88%91%E5%BE%97/wield.jpg" alt="Featured image of post Harvests" /&gt;</description>
+        <guid>http://localhost:1313/en/categories/%E6%88%91%E5%BE%97/</guid>
+        <description>&lt;img src="http://localhost:1313/categories/%E6%88%91%E5%BE%97/wield.jpg" alt="Featured image of post Harvests" /&gt;</description>
         </item>
         <item>
         <title>Meditations</title>
-        <link>https://blog.sakurasen.cn/en/categories/%E6%88%91%E6%80%9D/</link>
+        <link>http://localhost:1313/en/categories/%E6%88%91%E6%80%9D/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/categories/%E6%88%91%E6%80%9D/</guid>
-        <description>&lt;img src="https://blog.sakurasen.cn/categories/%E6%88%91%E6%80%9D/wonder.jpg" alt="Featured image of post Meditations" /&gt;</description>
+        <guid>http://localhost:1313/en/categories/%E6%88%91%E6%80%9D/</guid>
+        <description>&lt;img src="http://localhost:1313/categories/%E6%88%91%E6%80%9D/wonder.jpg" alt="Featured image of post Meditations" /&gt;</description>
         </item>
         
     </channel>

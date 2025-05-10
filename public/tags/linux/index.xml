@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Linux on 森语 - SenBlog</title>
-        <link>https://blog.sakurasen.cn/tags/linux/</link>
+        <link>http://localhost:1313/tags/linux/</link>
         <description>Recent content in Linux on 森语 - SenBlog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="https://blog.sakurasen.cn/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Debian开机挂载磁盘</title>
-        <link>https://blog.sakurasen.cn/p/120/</link>
+        <link>http://localhost:1313/p/120/</link>
         <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/p/120/</guid>
-        <description>&lt;img src="https://blog.sakurasen.cn/p/120/2023013100221665735974_p0218.png" alt="Featured image of post Debian开机挂载磁盘" /&gt;&lt;p&gt;封面来源：&lt;a class=&#34;link&#34; href=&#34;https://www.pixiv.net/artworks/65735974&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;#オリジナル 寒空 - みふる的插画 - pixiv&lt;/a&gt;
+        <guid>http://localhost:1313/p/120/</guid>
+        <description>&lt;img src="http://localhost:1313/p/120/2023013100221665735974_p0218.png" alt="Featured image of post Debian开机挂载磁盘" /&gt;&lt;p&gt;封面来源：&lt;a class=&#34;link&#34; href=&#34;https://www.pixiv.net/artworks/65735974&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;#オリジナル 寒空 - みふる的插画 - pixiv&lt;/a&gt;
 
 &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
         xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
@@ -58,10 +58,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir sdb
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后在硬盘新建分区&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fdisk /dev/sdc
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/120/20230130235153image660.png&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/120/20230130235153image660.png&#34;
 	width=&#34;770&#34;
 	height=&#34;217&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/120/20230130235153image660_hu_aaf3c7a5ece1e887.png 480w, https://blog.sakurasen.cn/p/120/20230130235153image660_hu_548a5c5d7975a917.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/120/20230130235153image660_hu_aaf3c7a5ece1e887.png 480w, http://localhost:1313/p/120/20230130235153image660_hu_548a5c5d7975a917.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1&#34;

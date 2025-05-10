@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on SakuraSen&#39;s BLOG</title>
-        <link>https://blog.sakurasen.cn/en/page/</link>
+        <link>http://localhost:1313/en/page/</link>
         <description>Recent content in Pages on SakuraSen&#39;s BLOG</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>SakuraSen</copyright><atom:link href="https://blog.sakurasen.cn/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>SakuraSen</copyright><atom:link href="http://localhost:1313/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>About</title>
-        <link>https://blog.sakurasen.cn/en/about/</link>
+        <link>http://localhost:1313/en/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/about/</guid>
+        <guid>http://localhost:1313/en/about/</guid>
         <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me
 &lt;/h2&gt;&lt;p&gt;A Senior high school student in China&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>archives</title>
-        <link>https://blog.sakurasen.cn/en/archives/</link>
+        <link>http://localhost:1313/en/archives/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/archives/</guid>
+        <guid>http://localhost:1313/en/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>copyright</title>
-        <link>https://blog.sakurasen.cn/en/copyright/</link>
+        <link>http://localhost:1313/en/copyright/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/copyright/</guid>
+        <guid>http://localhost:1313/en/copyright/</guid>
         <description>&lt;h2 id=&#34;sharing&#34;&gt;Sharing
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;互联网的分享精神是互联网发展的原动力。技术虽然是互联网发展的重要&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/%E6%8E%A8%E5%8A%A8%E5%8A%9B/1671530?fromModule=lemma_inlink&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;推动力&lt;/a&gt;
@@ -116,19 +116,19 @@
         </item>
         <item>
         <title>Donate this blog</title>
-        <link>https://blog.sakurasen.cn/en/donate/</link>
+        <link>http://localhost:1313/en/donate/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/donate/</guid>
+        <guid>http://localhost:1313/en/donate/</guid>
         <description>&lt;h2 id=&#34;why-i-need-donate&#34;&gt;Why I need donate
 &lt;/h2&gt;&lt;p&gt;Running a website in China comes with high server costs, and your support helps keep it alive!&lt;/p&gt;
 &lt;p&gt;For My web&amp;rsquo;s long-run development ,If my content has helped you, consider supporting so we can keep creating valuable resources together!&lt;/p&gt;
 &lt;h2 id=&#34;how-to-donate&#34;&gt;How to donate
 &lt;/h2&gt;&lt;h3 id=&#34;in-china-payment&#34;&gt;In China Payment
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/en/donate/pay.en.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/en/donate/pay.en.png&#34;
 	width=&#34;1800&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://blog.sakurasen.cn/en/donate/pay.en_hu_20c695e989f31814.png 480w, https://blog.sakurasen.cn/en/donate/pay.en_hu_cf73cd34fbbb3838.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/en/donate/pay.en_hu_20c695e989f31814.png 480w, http://localhost:1313/en/donate/pay.en_hu_cf73cd34fbbb3838.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -150,10 +150,10 @@
         </item>
         <item>
         <title>feedback</title>
-        <link>https://blog.sakurasen.cn/en/feedback/</link>
+        <link>http://localhost:1313/en/feedback/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/feedback/</guid>
+        <guid>http://localhost:1313/en/feedback/</guid>
         <description>&lt;h3 id=&#34;how-to-feedback&#34;&gt;How to feedback
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -182,10 +182,10 @@
         </item>
         <item>
         <title>Friends</title>
-        <link>https://blog.sakurasen.cn/en/friends/</link>
+        <link>http://localhost:1313/en/friends/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/friends/</guid>
+        <guid>http://localhost:1313/en/friends/</guid>
         <description>&lt;h2 id=&#34;-friendship-link-exchange&#34;&gt;🫂 Friendship Link Exchange
 &lt;/h2&gt;&lt;h3 id=&#34;-requirements&#34;&gt;📌 Requirements
 &lt;/h3&gt;&lt;p&gt;To ensure quality, your site should:&lt;/p&gt;
@@ -228,18 +228,18 @@
         </item>
         <item>
         <title>Message board</title>
-        <link>https://blog.sakurasen.cn/en/message/</link>
+        <link>http://localhost:1313/en/message/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/message/</guid>
+        <guid>http://localhost:1313/en/message/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>https://blog.sakurasen.cn/en/search/</link>
+        <link>http://localhost:1313/en/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/en/search/</guid>
+        <guid>http://localhost:1313/en/search/</guid>
         <description></description>
         </item>
         

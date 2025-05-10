@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>TeamSpeak on 森语 - SenBlog</title>
-        <link>https://blog.sakurasen.cn/tags/teamspeak/</link>
+        <link>http://localhost:1313/tags/teamspeak/</link>
         <description>Recent content in TeamSpeak on 森语 - SenBlog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="https://blog.sakurasen.cn/tags/teamspeak/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/teamspeak/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>从0开始，带你玩转TeamSpeak</title>
-        <link>https://blog.sakurasen.cn/p/2024060801/</link>
+        <link>http://localhost:1313/p/2024060801/</link>
         <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/p/2024060801/</guid>
-        <description>&lt;img src="https://blog.sakurasen.cn/p/2024060801/updata%E5%B0%81%E9%9D%A2.png" alt="Featured image of post 从0开始，带你玩转TeamSpeak" /&gt;&lt;h2 id=&#34;叠甲&#34;&gt;叠甲
+        <guid>http://localhost:1313/p/2024060801/</guid>
+        <description>&lt;img src="http://localhost:1313/p/2024060801/updata%E5%B0%81%E9%9D%A2.png" alt="Featured image of post 从0开始，带你玩转TeamSpeak" /&gt;&lt;h2 id=&#34;叠甲&#34;&gt;叠甲
 &lt;/h2&gt;&lt;p&gt;本人并非计算机专业，本文章可能并不是特别详细，若有遗漏请评论区指出，如文章意见与您本人意见不同，请友善讨论&lt;/p&gt;
 &lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;如果你是一个普通的游戏玩家，喜欢在家里打游戏，那么必定少不了与一起游玩的朋友语音。&lt;/p&gt;
@@ -27,10 +27,10 @@
 &lt;p&gt;在我眼中看来，TeamSpeak就是自由度极高的一款语音软件，你可以自定义你的频道，自己管理你的频道，一切管理权都在你的手中。&lt;/p&gt;
 &lt;p&gt;且自身功能十分强大，拥有降噪功能，回声消除，抑制键盘声与回声抑制功能。&lt;/p&gt;
 &lt;p&gt;而且软件自身占用也小，也有两个版本可供选择，分别是新UI新界面的 TeamSpeak5 与经典Ui经典界面的 TeamSpeak3&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608050600.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608050600.png&#34;
 	width=&#34;1034&#34;
 	height=&#34;584&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608050600_hu_c04b28f987aa6b1f.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608050600_hu_3d9c5a99f67d7d0f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608050600_hu_c04b28f987aa6b1f.png 480w, http://localhost:1313/p/2024060801/updata20240608050600_hu_3d9c5a99f67d7d0f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -54,10 +54,10 @@
     &lt;/svg&gt;&lt;/span&gt;
 &lt;/p&gt;
 &lt;p&gt;推荐下载 TS3 本篇文章演示使用的为TS3，TS3相比TS5占用小，更稳定，最多人使用的版本且TS5需要强制登录，TS3无需强制登录。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608074857.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608074857.png&#34;
 	width=&#34;1324&#34;
 	height=&#34;1044&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608074857_hu_e273fc2bd1d6a4c6.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608074857_hu_1eeecb683feee2c8.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608074857_hu_e273fc2bd1d6a4c6.png 480w, http://localhost:1313/p/2024060801/updata20240608074857_hu_1eeecb683feee2c8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -93,10 +93,10 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608080506.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608080506.png&#34;
 	width=&#34;393&#34;
 	height=&#34;563&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608080506_hu_46ed7630798907e8.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608080506_hu_3a2ed3cb77a6a3d5.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608080506_hu_46ed7630798907e8.png 480w, http://localhost:1313/p/2024060801/updata20240608080506_hu_3a2ed3cb77a6a3d5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -117,10 +117,10 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608051612.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608051612.png&#34;
 	width=&#34;579&#34;
 	height=&#34;274&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608051612_hu_685cfe580c8f6022.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608051612_hu_64c43079dd08f637.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608051612_hu_685cfe580c8f6022.png 480w, http://localhost:1313/p/2024060801/updata20240608051612_hu_64c43079dd08f637.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -140,10 +140,10 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608051829.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608051829.png&#34;
 	width=&#34;947&#34;
 	height=&#34;266&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608051829_hu_336af4fb6c9fac8.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608051829_hu_580b40e0f98a1d38.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608051829_hu_336af4fb6c9fac8.png 480w, http://localhost:1313/p/2024060801/updata20240608051829_hu_580b40e0f98a1d38.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -163,10 +163,10 @@
     &lt;/svg&gt;&lt;/span&gt;
 。&lt;/p&gt;
 &lt;p&gt;他们的服务器价格是18/月，年付7折。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608052252.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608052252.png&#34;
 	width=&#34;792&#34;
 	height=&#34;287&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608052252_hu_f010e3c8453ae442.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608052252_hu_f3fd42b571695a78.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608052252_hu_f010e3c8453ae442.png 480w, http://localhost:1313/p/2024060801/updata20240608052252_hu_f3fd42b571695a78.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -181,10 +181,10 @@
 &lt;p&gt;如果你不想购买服务器，那么也有很多公益服务器可供大家使用，我本人虽没有开建公益服务器，但如果此视频播放量与点赞量高的话，我将会开放公益服务器供大家使用&amp;gt;w&amp;lt;也欢迎大家在评论区分享自己的公益服务器。&lt;/p&gt;
 &lt;h2 id=&#34;服务器系统选择&#34;&gt;服务器系统选择
 &lt;/h2&gt;&lt;p&gt;当你购买完服务器后，你需要为你的服务器选择系统，如果你愿意折腾，那么建议你使用Linux系统，我的Linux系统使用的是Debian，那么在本章后续内容中也会采用Debian来演示。当然，如果你不愿意折腾的话，我后面可以出一期Windows如何部署。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608053051.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608053051.png&#34;
 	width=&#34;1724&#34;
 	height=&#34;699&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608053051_hu_69fef8ff260223dd.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608053051_hu_fc5aea0deb5f5e64.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608053051_hu_69fef8ff260223dd.png 480w, http://localhost:1313/p/2024060801/updata20240608053051_hu_fc5aea0deb5f5e64.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -196,10 +196,10 @@
 &lt;h2 id=&#34;服务器搭建&#34;&gt;服务器搭建
 &lt;/h2&gt;&lt;h3 id=&#34;linux系统&#34;&gt;Linux系统
 &lt;/h3&gt;&lt;p&gt;当你购买完后，你将获得一个公网IP，以及一个服务器密码，如果没有服务器密码的话可以试着在控制台重置密码，每个云服务器厂商的控制台都有区别，正好我的阿里云有一台机器，我将用阿里云举例。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608053949.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608053949.png&#34;
 	width=&#34;323&#34;
 	height=&#34;83&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608053949_hu_538688660ee57c7a.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608053949_hu_26ab9083dc29e99a.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608053949_hu_538688660ee57c7a.png 480w, http://localhost:1313/p/2024060801/updata20240608053949_hu_26ab9083dc29e99a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -208,10 +208,10 @@
 		data-flex-basis=&#34;933px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608054020.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608054020.png&#34;
 	width=&#34;683&#34;
 	height=&#34;613&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608054020_hu_5523ca989098086b.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608054020_hu_656590b981a58dbd.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608054020_hu_5523ca989098086b.png 480w, http://localhost:1313/p/2024060801/updata20240608054020_hu_656590b981a58dbd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -232,10 +232,10 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
  点击下载即可。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608060650.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608060650.png&#34;
 	width=&#34;1238&#34;
 	height=&#34;770&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608060650_hu_46e2708740d0c331.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608060650_hu_6d372c8d961e4a60.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608060650_hu_46e2708740d0c331.png 480w, http://localhost:1313/p/2024060801/updata20240608060650_hu_6d372c8d961e4a60.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -245,10 +245,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击邮箱注册即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608060807.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608060807.png&#34;
 	width=&#34;678&#34;
 	height=&#34;504&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608060807_hu_b32c8efa1afd248.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608060807_hu_ab40d48349bf0309.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608060807_hu_b32c8efa1afd248.png 480w, http://localhost:1313/p/2024060801/updata20240608060807_hu_ab40d48349bf0309.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -258,10 +258,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;输入你的邮箱&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608060830.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608060830.png&#34;
 	width=&#34;725&#34;
 	height=&#34;520&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608060830_hu_f7229a00799ba508.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608060830_hu_b6030af348ec1b96.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608060830_hu_f7229a00799ba508.png 480w, http://localhost:1313/p/2024060801/updata20240608060830_hu_b6030af348ec1b96.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -272,10 +272,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;输入你的密码&lt;/p&gt;
 &lt;p&gt;进入主页面后点击 &lt;strong&gt;NEW HOST&lt;/strong&gt; 添加新的服务器&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608060909.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608060909.png&#34;
 	width=&#34;1030&#34;
 	height=&#34;750&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608060909_hu_a8c6be9f15291a11.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608060909_hu_84b93d4cce9798b9.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608060909_hu_a8c6be9f15291a11.png 480w, http://localhost:1313/p/2024060801/updata20240608060909_hu_84b93d4cce9798b9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -284,10 +284,10 @@
 		data-flex-basis=&#34;329px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608060954.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608060954.png&#34;
 	width=&#34;320&#34;
 	height=&#34;103&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608060954_hu_f9610dd76a11c9c3.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608060954_hu_9df6018f4a4accbf.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608060954_hu_f9610dd76a11c9c3.png 480w, http://localhost:1313/p/2024060801/updata20240608060954_hu_9df6018f4a4accbf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -297,10 +297,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;这里是输入IP地址的，填写你购买服务器的IP即可。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608061029.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608061029.png&#34;
 	width=&#34;310&#34;
 	height=&#34;200&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608061029_hu_35efe8502997e1aa.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608061029_hu_7db187ca7d68daa5.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608061029_hu_35efe8502997e1aa.png 480w, http://localhost:1313/p/2024060801/updata20240608061029_hu_7db187ca7d68daa5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -310,10 +310,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;这里是填写服务器端口与用户名密码的，如果你没有修改端口，则默认端口为22，用户名为root。
-&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608061121.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608061121.png&#34;
 	width=&#34;237&#34;
 	height=&#34;40&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608061121_hu_8e0543315383f4da.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608061121_hu_f5c5fa0bb84a20ee.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608061121_hu_8e0543315383f4da.png 480w, http://localhost:1313/p/2024060801/updata20240608061121_hu_f5c5fa0bb84a20ee.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -321,10 +321,10 @@
 		data-flex-grow=&#34;592&#34;
 		data-flex-basis=&#34;1422px&#34;
 	
-&gt; &lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608061128.png&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608061128.png&#34;
 	width=&#34;272&#34;
 	height=&#34;207&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608061128_hu_472119881bb140ad.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608061128_hu_8d8a49dcebff9f68.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608061128_hu_472119881bb140ad.png 480w, http://localhost:1313/p/2024060801/updata20240608061128_hu_8d8a49dcebff9f68.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -337,10 +337,10 @@
 &lt;p&gt;添加完你就可以在主页看到你添加的服务器了，双击连接即可。&lt;/p&gt;
 &lt;p&gt;如果连接失败，请查看服务器防火墙与账号密码是否正确。&lt;/p&gt;
 &lt;h4 id=&#34;检查防火墙&#34;&gt;检查防火墙
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608061704.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608061704.png&#34;
 	width=&#34;1577&#34;
 	height=&#34;359&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608061704_hu_c81e78cf83c39122.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608061704_hu_50f30f0748f681dd.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608061704_hu_c81e78cf83c39122.png 480w, http://localhost:1313/p/2024060801/updata20240608061704_hu_50f30f0748f681dd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -349,10 +349,10 @@
 		data-flex-basis=&#34;1054px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608061812.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608061812.png&#34;
 	width=&#34;1246&#34;
 	height=&#34;93&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608061812_hu_7342c0fa62ed1022.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608061812_hu_4f53ce8e8d4f2e38.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608061812_hu_7342c0fa62ed1022.png 480w, http://localhost:1313/p/2024060801/updata20240608061812_hu_4f53ce8e8d4f2e38.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -364,10 +364,10 @@
 &lt;p&gt;查看22端口(TCP)是否被放行。&lt;/p&gt;
 &lt;h3 id=&#34;下载服务器安装包&#34;&gt;下载服务器安装包
 &lt;/h3&gt;&lt;p&gt;首先检查命令是否完整&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608063627.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608063627.png&#34;
 	width=&#34;728&#34;
 	height=&#34;201&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608063627_hu_64e2e731755e81e2.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608063627_hu_f19acc6435657f87.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608063627_hu_64e2e731755e81e2.png 480w, http://localhost:1313/p/2024060801/updata20240608063627_hu_f19acc6435657f87.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -410,10 +410,10 @@
 &lt;h3 id=&#34;启动服务器&#34;&gt;启动服务器
 &lt;/h3&gt;&lt;p&gt;输入 &lt;code&gt;./ts3server&lt;/code&gt; 即可启动服务器&lt;/p&gt;
 &lt;p&gt;启动后，你需要放行端口，与之前放行22端口一样，请放行 &lt;strong&gt;9987(UDP)&lt;/strong&gt; 与 &lt;strong&gt;30033(TCP)&lt;/strong&gt; 端口
-&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608071047.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608071047.png&#34;
 	width=&#34;835&#34;
 	height=&#34;121&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608071047_hu_9f910e4d2bfb3d70.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608071047_hu_dc59f0a75ef70f0e.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608071047_hu_9f910e4d2bfb3d70.png 480w, http://localhost:1313/p/2024060801/updata20240608071047_hu_dc59f0a75ef70f0e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -423,10 +423,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;启动后会提供一个权限密钥，你需要登录服务器，然后输入此权限密钥即可获得管理员权限&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608070621.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608070621.png&#34;
 	width=&#34;483&#34;
 	height=&#34;132&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608070621_hu_ce32a2748f82a8e.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608070621_hu_c4ba52fac93e33f0.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608070621_hu_ce32a2748f82a8e.png 480w, http://localhost:1313/p/2024060801/updata20240608070621_hu_c4ba52fac93e33f0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -436,10 +436,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;复制&amp;rsquo;Token=&amp;lsquo;后面的一串密钥，输入权限密钥即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608071148.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608071148.png&#34;
 	width=&#34;318&#34;
 	height=&#34;148&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608071148_hu_3de68262a849e7cc.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608071148_hu_3e242a98a84eb87.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608071148_hu_3de68262a849e7cc.png 480w, http://localhost:1313/p/2024060801/updata20240608071148_hu_3e242a98a84eb87.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -452,10 +452,10 @@
 &lt;p&gt;就此，恭喜你，所有服务器内容搭建完毕&lt;/p&gt;
 &lt;h2 id=&#34;管理服务器&#34;&gt;管理服务器
 &lt;/h2&gt;&lt;h3 id=&#34;基础操作&#34;&gt;基础操作
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608071419.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608071419.png&#34;
 	width=&#34;363&#34;
 	height=&#34;264&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608071419_hu_c146ca976296eda7.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608071419_hu_af752051b5cfd05.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608071419_hu_c146ca976296eda7.png 480w, http://localhost:1313/p/2024060801/updata20240608071419_hu_af752051b5cfd05.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -465,10 +465,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;右键TeamSpeak Server即可选择编辑服务器，如果你是新的服务器，请务必设置一个密码。然后推荐你修改一下图标上传大小，因为TeamSpeak服务器默认图标最大上传大小为8KB，打开设置，高级权限设置&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608071707.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608071707.png&#34;
 	width=&#34;1197&#34;
 	height=&#34;772&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608071707_hu_7c336d707a48a9e4.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608071707_hu_3fa65f95a3184431.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608071707_hu_7c336d707a48a9e4.png 480w, http://localhost:1313/p/2024060801/updata20240608071707_hu_3fa65f95a3184431.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -489,10 +489,10 @@
 &lt;p&gt;你可以右键这三个权限组来重命名等操作&lt;/p&gt;
 &lt;p&gt;在&lt;strong&gt;Server Admin&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Group&lt;/strong&gt; -&amp;gt; &lt;strong&gt;i_max_icon_filesize&lt;/strong&gt; 修改上传图标大小，单位为Bytes(1Kb=1024Bytes)&lt;/p&gt;
 &lt;p&gt;而 i_icon_id  则为权限组图标，你可以自己上传图标来美化服务器&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608073145.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608073145.png&#34;
 	width=&#34;771&#34;
 	height=&#34;662&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608073145_hu_71a23bd447e71515.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608073145_hu_bcb3b5f3cc4003d8.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608073145_hu_71a23bd447e71515.png 480w, http://localhost:1313/p/2024060801/updata20240608073145_hu_bcb3b5f3cc4003d8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -502,10 +502,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;当然你也可以设置语音音质，无脑最高即可
-&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608081543.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608081543.png&#34;
 	width=&#34;332&#34;
 	height=&#34;217&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608081543_hu_ff8ce68bcc79d356.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608081543_hu_22d50878db9914c7.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608081543_hu_ff8ce68bcc79d356.png 480w, http://localhost:1313/p/2024060801/updata20240608081543_hu_22d50878db9914c7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -515,10 +515,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;权限管理&#34;&gt;权限管理
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608073218.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608073218.png&#34;
 	width=&#34;544&#34;
 	height=&#34;575&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608073218_hu_1d91a00936294290.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608073218_hu_f7d611668dd2f3e7.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608073218_hu_1d91a00936294290.png 480w, http://localhost:1313/p/2024060801/updata20240608073218_hu_f7d611668dd2f3e7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -540,10 +540,10 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;注意&#34;&gt;注意
 &lt;/h3&gt;&lt;p&gt;默认用户组有权限新建一个临时频道，请在权限管理组移除这个权限，以防万一&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608074446.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024060801/updata20240608074446.png&#34;
 	width=&#34;1075&#34;
 	height=&#34;866&#34;
-	srcset=&#34;https://blog.sakurasen.cn/p/2024060801/updata20240608074446_hu_14e777d647fae3d3.png 480w, https://blog.sakurasen.cn/p/2024060801/updata20240608074446_hu_fd043490948ad987.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/2024060801/updata20240608074446_hu_14e777d647fae3d3.png 480w, http://localhost:1313/p/2024060801/updata20240608074446_hu_fd043490948ad987.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

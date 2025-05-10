@@ -8,7 +8,9 @@ categories:
   - 我得
   - 我思
 lastmod: 2025-05-06
-toc:
+tags:
+  - 美化
+  - 教程
 ---
 封面来源： [#オリジナル 慵懒 - XilmO@夕末的插画 - pixiv](https://www.pixiv.net/artworks/98841678)
 
@@ -987,8 +989,6 @@ markup:
         lineNumbersInTable: true
 
         tabWidth: 4
-
-        style: onedark
 ```
 {{</details>}}
 
@@ -1039,7 +1039,6 @@ color: var(--card-text-color-main)!important;
 --body-background: #dae0e5;
 
 }
-
 ```
 ### 网站字体修改
 

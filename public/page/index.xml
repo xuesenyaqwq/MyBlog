@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 森语 - SenBlog</title>
-        <link>https://blog.sakurasen.cn/page/</link>
+        <link>http://localhost:1313/page/</link>
         <description>Recent content in Pages on 森语 - SenBlog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>SakuraSen</copyright><atom:link href="https://blog.sakurasen.cn/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>SakuraSen</copyright><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>版权声明</title>
-        <link>https://blog.sakurasen.cn/copyright/</link>
+        <link>http://localhost:1313/copyright/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/copyright/</guid>
+        <guid>http://localhost:1313/copyright/</guid>
         <description>&lt;h2 id=&#34;分享&#34;&gt;分享
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;互联网的分享精神是互联网发展的原动力。技术虽然是互联网发展的重要&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/%E6%8E%A8%E5%8A%A8%E5%8A%9B/1671530?fromModule=lemma_inlink&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;推动力&lt;/a&gt;
@@ -85,17 +85,17 @@
 &lt;p&gt;我非常开心向所有人分享我的文章。&lt;/p&gt;
 &lt;p&gt;但若为我的原创文章，我还是希望你能标明出处。&lt;/p&gt;
 &lt;p&gt;当然！一切由你决定。&lt;/p&gt;
-&lt;p&gt;如果不介意，可以和我&lt;a class=&#34;link&#34; href=&#34;https://blog.sakurasen.cn/friends&#34; &gt;交换友链&lt;/a&gt;
+&lt;p&gt;如果不介意，可以和我&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/friends&#34; &gt;交换友链&lt;/a&gt;
  😉&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>更新历史</title>
-        <link>https://blog.sakurasen.cn/update/</link>
+        <link>http://localhost:1313/update/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/update/</guid>
-        <description>&lt;img src="https://blog.sakurasen.cn/update/Image_205729992560477.png" alt="Featured image of post 更新历史" /&gt;&lt;h1 id=&#34;这个页面演示了网页更新历史更新内容可能是瞎填的&#34;&gt;这个页面演示了网页更新历史，更新内容可能是瞎填的&amp;hellip;
+        <guid>http://localhost:1313/update/</guid>
+        <description>&lt;img src="http://localhost:1313/update/Image_205729992560477.png" alt="Featured image of post 更新历史" /&gt;&lt;h1 id=&#34;这个页面演示了网页更新历史更新内容可能是瞎填的&#34;&gt;这个页面演示了网页更新历史，更新内容可能是瞎填的&amp;hellip;
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;[2025-05-07 10:48:12] 修改了文章&lt;/li&gt;
 &lt;li&gt;[2025-05-07 10:43:20] Github404?&lt;/li&gt;
@@ -106,10 +106,10 @@
         </item>
         <item>
         <title>关于</title>
-        <link>https://blog.sakurasen.cn/about/</link>
+        <link>http://localhost:1313/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/about/</guid>
+        <guid>http://localhost:1313/about/</guid>
         <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://loli.sakurasen.cn/@About?name=About&amp;amp;theme=asoul&amp;amp;padding=7&amp;amp;offset=0&amp;amp;align=top&amp;amp;scale=1&amp;amp;pixelated=1&amp;amp;darkmode=0&#34;
 	
@@ -199,26 +199,26 @@
         </item>
         <item>
         <title>归档</title>
-        <link>https://blog.sakurasen.cn/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>留言板</title>
-        <link>https://blog.sakurasen.cn/message/</link>
+        <link>http://localhost:1313/message/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/message/</guid>
+        <guid>http://localhost:1313/message/</guid>
         <description></description>
         </item>
         <item>
         <title>萌萌计数器</title>
-        <link>https://blog.sakurasen.cn/loli/</link>
+        <link>http://localhost:1313/loli/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/loli/</guid>
+        <guid>http://localhost:1313/loli/</guid>
         <description>&lt;h2 id=&#34;萌萌计数器&#34;&gt;萌萌计数器
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://loli.sakurasen.cn/@sakurasen.cn?name=sakurasen.cn&amp;amp;theme=gelbooru&amp;amp;padding=8&amp;amp;offset=0&amp;amp;align=top&amp;amp;scale=1&amp;amp;pixelated=1&amp;amp;darkmode=auto&#34;
 	
@@ -266,10 +266,10 @@
         </item>
         <item>
         <title>朋友们</title>
-        <link>https://blog.sakurasen.cn/friends/</link>
+        <link>http://localhost:1313/friends/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/friends/</guid>
+        <guid>http://localhost:1313/friends/</guid>
         <description>&lt;p&gt;欢迎各位申请 &lt;strong&gt;友情链接&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;申请条件如下&#34;&gt;📌申请条件如下：
 &lt;/h2&gt;&lt;ol&gt;
@@ -294,18 +294,18 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://blog.sakurasen.cn/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         <item>
         <title>问题反馈</title>
-        <link>https://blog.sakurasen.cn/feedback/</link>
+        <link>http://localhost:1313/feedback/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/feedback/</guid>
+        <guid>http://localhost:1313/feedback/</guid>
         <description>&lt;h3 id=&#34;反馈方式&#34;&gt;反馈方式
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -334,18 +334,18 @@
         </item>
         <item>
         <title>赞助本网站</title>
-        <link>https://blog.sakurasen.cn/donate/</link>
+        <link>http://localhost:1313/donate/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.sakurasen.cn/donate/</guid>
+        <guid>http://localhost:1313/donate/</guid>
         <description>&lt;h2 id=&#34;赞助我&#34;&gt;赞助我。
 &lt;/h2&gt;&lt;p&gt;如果您是一位站长，那么您可能知道在中国大陆开设一个网站的成本。&lt;/p&gt;
 &lt;p&gt;为了维持本网站长久开展，如果您觉得我的内容对您有帮助，可以进行适当的赞助来减轻我对于网站方面负担，以便更好地分享内容。&lt;/p&gt;
 &lt;h2 id=&#34;如何赞助&#34;&gt;如何赞助
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://blog.sakurasen.cn/donate/pay.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/donate/pay.png&#34;
 	width=&#34;1800&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://blog.sakurasen.cn/donate/pay_hu_2c4392acb5b6d10f.png 480w, https://blog.sakurasen.cn/donate/pay_hu_7648f18790cac77b.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/donate/pay_hu_2c4392acb5b6d10f.png 480w, http://localhost:1313/donate/pay_hu_7648f18790cac77b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;请务必备注&#34;

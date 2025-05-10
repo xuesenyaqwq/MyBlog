@@ -7,6 +7,228 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>玩Arch遇到的一些问题</title>
+        <link>http://localhost:1313/p/%E7%8E%A9arch%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E7%8E%A9arch%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</guid>
+        <description>&lt;h2 id=&#34;archlinux&#34;&gt;ArchLinux
+&lt;/h2&gt;&lt;h3 id=&#34;更改交换分区swap大小&#34;&gt;更改交换分区swap大小
+&lt;/h3&gt;&lt;p&gt;自动安装脚本给我安装的大小只有4G，BYD给我电脑内存用炸了&lt;/p&gt;
+&lt;p&gt;首先查看自己的交换分区类型&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sen@SenArch &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;~&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; ➜  lsblk                                                                                                  &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1:33:03&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sda           8:0    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; 465.8G  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; disk    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└─sda1        8:1    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; 465.8G  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; part    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sdb           8:16   &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; 931.5G  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; disk    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├─sdb1        8:17   &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;     1G  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; part /boot  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└─sdb2        8:18   &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; 930.5G  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; part /home  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                                     /var/cache/pacman/pkg  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                                     /var/log  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                                     /.snapshots  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                                     /  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sdc           8:32   &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;  58.6G  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; disk    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├─sdc1        8:33   &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;  1013M  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; part    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└─sdc2        8:34   &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;   173M  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; part    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;zram0       253:0    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;    16G  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; disk &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;SWAP&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nvme0n1     259:0    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; 931.5G  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; disk    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├─nvme0n1p1 259:1    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;   100M  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; part    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├─nvme0n1p2 259:2    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;    16M  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; part    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├─nvme0n1p3 259:3    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; 930.7G  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; part /home/sen/win  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└─nvme0n1p4 259:4    &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;   705M  &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; part    
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;可以看到，我的SWAP分区指向了zram0，
+这是因为系统使用了 zram（压缩内存交换设备）&lt;/p&gt;
+&lt;p&gt;先卸载分区&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;swapoff /dev/zram0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后调整分区大小&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo zramctl --size 99999999999999999G --algorithm lzo-rle /dev/zram0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#别真填99999999999999999999,改成自己设置的，一般不超过50%实际内存&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最后格式化+启用&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo mkswap /swapfile
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo swapon /swapfile
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;waydroid&#34;&gt;Waydroid
+&lt;/h2&gt;&lt;h3 id=&#34;脚本推荐&#34;&gt;脚本推荐
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; sudo pacman -S lzip
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; git clone https://github.com/casualsnek/waydroid_script
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; cd waydroid_script
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; sudo python3 -m pip install -r requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;无敌了！&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python -m venv --system-site-packages myenv  # 创建允许访问系统包的虚拟环境
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;source myenv/bin/activate  # 激活环境
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果报错记得用一下虚拟环境，用了虚拟环境就别sudo了&lt;/p&gt;
+&lt;p&gt;如果注册google环境，记得初始化时加GAPPS&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; sudo waydroid init -s GAPPS -f
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;开启多窗口模式&#34;&gt;开启多窗口模式
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;waydroid prop set persist.waydroid.multi_windows true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo systemctl restart waydroid-container
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;设置宽高&#34;&gt;设置宽高
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;waydroid prop set persist.waydroid.width 1000
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;waydroid prop set persist.waydroid.height 1000
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;记得重启&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;waydroid session stop
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;waydroid session start
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;waydroid-明日方舟闪退问题&#34;&gt;Waydroid 明日方舟闪退问题
+&lt;/h3&gt;&lt;details&gt; 
+    &lt;summary&gt;查看引用内容&lt;/summary&gt;
+引用自
+&lt;p&gt;2025-04-13 13:12    &lt;/p&gt;
+&lt;p&gt;4​&lt;/p&gt;
+&lt;p&gt;04-16 更新：加上了楼下各位推荐的方案和测试结果，感谢大伙的建议&lt;/p&gt;
+&lt;p&gt;我这两天基本把能尝试的都试了一遍，结果如下：&lt;/p&gt;
+&lt;p&gt;完全不能用的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Genymotion。免费版根本不支持转译 Arm&lt;/li&gt;
+&lt;li&gt;Android Emulator (x86_64) 除了 9 和11 以外的任意低版本(即 1~8 加上 10 和 12)。这些 Android 镜像没预装转译层&lt;/li&gt;
+&lt;li&gt;Android Emulator (Armv8) 8。Android Logo 转了 30 分钟都没开机完成，放弃&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;打开立刻闪退的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Waydroid + &lt;a class=&#34;link&#34; href=&#34;https://github.com/mrvictory1/libhoudini_bluestacks/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;libhoudini_bluestacks&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;Waydroid + &lt;a class=&#34;link&#34; href=&#34;https://github.com/ayasa520/waydroid-helper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;waydroid-helper&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+ + libhoudini-chromeos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;播完 Logo / 同意许可协议闪退的：&lt;br&gt;
+这一类是最多的，应该是载入 Unity 引擎时不兼容导致崩溃的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Waydroid + &lt;a class=&#34;link&#34; href=&#34;https://github.com/casualsnek/waydroid_script&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;libhoudini / libndk&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+，无论打没打 bluearchive 补丁&lt;/li&gt;
+&lt;li&gt;Redroid 9~14，预装了 libndk&lt;/li&gt;
+&lt;li&gt;Android Emulator (x86_64) 9 和 11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;播完 Logo 在加载资源页面卡死的：&lt;br&gt;
+从日志里看应该也是引擎崩溃了，和上一类半斤八两。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Waydroid + libhoudini_bluestacks + bluearchive 补丁&lt;/li&gt;
+&lt;li&gt;Waydroid + waydroid-helper + libndk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;能正常进入游戏，但画面不正常的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VMware + Win11 + Mumu。“画面优先”下画面完全错乱，“资源优先”下画面正常但&lt;a class=&#34;link&#34; href=&#34;https://mumu.163.com/help/20250410/35048_1226518.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;出现绿色格子&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前一切正常的：&lt;br&gt;
+a. 基于容器的(理论占用最低，性能最好)：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redroid 12 + libhoudini-wsa12.1。测试可用，但 logcat 会猛刷异常，故 CPU 占用异常高，可以通过 stop logd 缓解( &lt;a class=&#34;link&#34; href=&#34;https://nga.178.com/nuke.php?func=ucp&amp;amp;__inchst=UTF-8&amp;amp;uid=63848562&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;[@63848562]&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+ )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;b. 基于 Android 虚拟机的(占用较高，性能类似容器)：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Android Emulator (x86_64) 15。测试可用，但在 NVIDIA 显卡上会有 glitch 和闪退等情况( &lt;a class=&#34;link&#34; href=&#34;https://nga.178.com/nuke.php?func=ucp&amp;amp;__inchst=UTF-8&amp;amp;uid=60543420&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;[@60543420]&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+ )&lt;/li&gt;
+&lt;li&gt;Android Emulator (x86_64) 16。测试可用，但可能会有 WiFi 突然消失导致断网问题( &lt;a class=&#34;link&#34; href=&#34;https://nga.178.com/nuke.php?func=ucp&amp;amp;__inchst=UTF-8&amp;amp;uid=21149675&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;[@21149675]&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+ )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;c. 基于 Windows 虚拟机的(占用较高，性能稍差于容器)：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VMware + Win11 + 雷电。给 VM 分配 4GB 内存不太够，大概 6GB(整个VM)、4GB(雷电模拟器)基本够用。因为我的需求是在 Linux 下跑舟和 MAA，以及 Office，所以基本这个方案能同时 cover 了。MAA 可以直接连接到虚拟机里(adb connect)清日常，清完直接存快照停虚拟机，速度也很快。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;还有一个终极方案是手机远程 ADB + Scrcpy + 改分辨率，直接在手机上跑&lt;img src=&#34;https://img4.nga.178.com/ngabbs/post/smile/ac15.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;哭笑&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/details&gt; 
+&lt;p&gt;换了新架构后明日方舟在模拟器会有兼容问题， RIP。&lt;/p&gt;
+&lt;h2 id=&#34;zsh及终端美化&#34;&gt;zsh及终端美化
+&lt;/h2&gt;&lt;p&gt;先安装zsh&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo pacman -S zsh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;然后安装ohmyzsh&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;主题推荐使用haoomz&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo wget -O $ZSH_CUSTOM/themes/haoomz.zsh-theme https://cdn.haoyep.com/gh/leegical/Blog_img/zsh/haoomz.zsh-theme
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;记得配置里启用&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nano ~/.zshrc&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZSH_THEME&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;haoomz&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;source ~/.zshrc&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mill413.github.io/posts/archlinux%E7%BE%8E%E5%8C%96%E8%AE%B0%E5%BD%95/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;Archlinux+KDE美化记录 | 彩虹岛&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.haoyep.com/posts/zsh-config-oh-my-zsh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;zsh 安装与配置，使用 oh-my-zsh 美化终端 | Leehow的小站&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://nga.178.com/read.php?tid=43752188&amp;amp;page=3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;访客不能直接访问&lt;/a&gt;
+
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
+        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>如何把我的博客变成你的博客</title>
         <link>http://localhost:1313/p/2025050401/</link>
         <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
@@ -1125,8 +1347,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        lineNumbersInTable: true
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        tabWidth: 4
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        style: onedark
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/details&gt;
 &lt;p&gt;修改配置文件&lt;/p&gt;
