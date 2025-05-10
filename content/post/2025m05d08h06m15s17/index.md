@@ -58,8 +58,8 @@ sudo zramctl --size 99999999999999999G --algorithm lzo-rle /dev/zram0
 最后格式化+启用
 
 ```shell
-sudo mkswap /swapfile
-sudo swapon /swapfile
+sudo mkswap /dev/zram0
+sudo swapon /dev/zram0
 ```
 ## Waydroid
 
