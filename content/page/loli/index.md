@@ -24,4 +24,4 @@ comments: true
 
 当然我会通知你的：）
 
-如果不介意可以加个[友链](https://blog.sakurasen.cn/friendslink/)吗
+如果不介意可以加个[友链](https://blog.sakurasen.cn/friends/)吗
