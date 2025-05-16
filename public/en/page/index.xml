@@ -181,6 +181,16 @@
 </description>
         </item>
         <item>
+        <title>FLAGS</title>
+        <link>http://localhost:1313/en/flags/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/en/flags/</guid>
+        <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me
+&lt;/h2&gt;&lt;p&gt;A Senior high school student in China&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Friends</title>
         <link>http://localhost:1313/en/friends/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

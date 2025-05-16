@@ -90,21 +90,6 @@
 </description>
         </item>
         <item>
-        <title>更新历史</title>
-        <link>http://localhost:1313/update/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/update/</guid>
-        <description>&lt;img src="http://localhost:1313/update/Image_205729992560477.png" alt="Featured image of post 更新历史" /&gt;&lt;h1 id=&#34;这个页面演示了网页更新历史更新内容可能是瞎填的&#34;&gt;这个页面演示了网页更新历史，更新内容可能是瞎填的&amp;hellip;
-&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;[2025-05-07 10:48:12] 修改了文章&lt;/li&gt;
-&lt;li&gt;[2025-05-07 10:43:20] Github404?&lt;/li&gt;
-&lt;li&gt;[2025-05-07 10:42:09] Github404?&lt;/li&gt;
-&lt;li&gt;[2025-05-07 10:34:50] 为什么Github无法构建啊&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
         <title>关于</title>
         <link>http://localhost:1313/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -120,17 +105,8 @@
 		alt=&#34;loli|315x100&#34;
 	
 	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://music.163.com/#/song?id=1986743401&amp;amp;uct2=U2FsdGVkX1//kng&amp;#43;w9dWqK7aLGiPlRO6S7RyKStq/jA=&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;∞ TIMEs - 洛天依Official/星葵77 - 单曲 - 网易云音乐&lt;/a&gt;
-
-&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
-        xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-            fill=&#34;currentColor&#34;&gt;
-    &lt;/svg&gt;&lt;/span&gt;
-封面&lt;/p&gt;
-&lt;p&gt;目前高中在读。&lt;/p&gt;
+&gt;
+目前高中在读。&lt;/p&gt;
 &lt;p&gt;你可以叫我Sen，为什么叫SakuraSen？&lt;/p&gt;
 &lt;p&gt;说来话长了！感兴趣的话我再写一篇文章。&lt;/p&gt;
 &lt;p&gt;目前玩的游戏挺多的，欢迎大家来和我扩列：&lt;/p&gt;
@@ -158,6 +134,9 @@
         &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/flags&#34; &gt;我的Flag&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;下面是一些项目：&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://cf.senovo.space/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;Github加速&lt;/a&gt;
@@ -253,7 +232,7 @@
 &lt;h3 id=&#34;其他说明&#34;&gt;其他说明
 &lt;/h3&gt;&lt;p&gt;太多非正常访问将会停止服务。&lt;/p&gt;
 &lt;p&gt;当然我会通知你的：）&lt;/p&gt;
-&lt;p&gt;如果不介意可以加个&lt;a class=&#34;link&#34; href=&#34;https://blog.sakurasen.cn/friendslink/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;友链&lt;/a&gt;
+&lt;p&gt;如果不介意可以加个&lt;a class=&#34;link&#34; href=&#34;https://blog.sakurasen.cn/friends/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;友链&lt;/a&gt;
 
 &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
         xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
@@ -330,6 +309,28 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>我要立FLAG了</title>
+        <link>http://localhost:1313/flags/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/flags/</guid>
+        <description>&lt;h2 id=&#34;flags&#34;&gt;FLAGS
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;现在开始不抽卡玩明日方舟&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;真的没抽卡资源了。当前box也足够我推关了，~~还不存在打不过的关。~~这辈子不可能打空想花庭！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;音律联觉&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可惜不玩崩铁了，不然我也去崩铁的。&lt;/p&gt;
+&lt;p&gt;顺便骂一下崩铁，为出新角色而设置关卡。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 画画高手&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;现在是，幻想时刻！&lt;/p&gt;
 </description>
         </item>
         <item>

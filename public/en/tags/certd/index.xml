@@ -7,13 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/certd/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 07 May 2025 02:45:12 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/certd/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Use Pre-made Certificates! No More Manual Applications!</title>
-        <link>http://localhost:1313/en/p/2025050101/</link>
+        <link>http://localhost:1313/en/post/2025050101/</link>
         <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/2025050101/</guid>
-        <description>&lt;img src="http://localhost:1313/p/2025050101/bg.png" alt="Featured image of post Use Pre-made Certificates! No More Manual Applications!" /&gt;&lt;blockquote&gt;
+        <guid>http://localhost:1313/en/post/2025050101/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2025050101/bg.png" alt="Featured image of post Use Pre-made Certificates! No More Manual Applications!" /&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Translated by DeepSeek&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;why-are-ssl-certificates-so-annoying&#34;&gt;Why Are SSL Certificates So Annoying?
 &lt;/h2&gt;&lt;p&gt;Back in the day, SSL certificates only needed renewal once a year. But now, it’s every three months. If you’re a paying user, ignore my rant.&lt;/p&gt;
@@ -36,10 +36,10 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746084079894-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746084079894-1.png&#34;
 	width=&#34;1362&#34;
 	height=&#34;497&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746084079894-1_hu_c5d795785b2fd423.png 480w, http://localhost:1313/p/2025050101/QQ_1746084079894-1_hu_da54e7e8f2cc329d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746084079894-1_hu_c5d795785b2fd423.png 480w, http://localhost:1313/post/2025050101/QQ_1746084079894-1_hu_da54e7e8f2cc329d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Screenshot&#34;
@@ -93,10 +93,10 @@
 Default credentials: &lt;strong&gt;admin/123456&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;email-notifications&#34;&gt;Email Notifications
 &lt;/h2&gt;&lt;p&gt;Configure email notifications in the admin dashboard first.&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746084430783.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746084430783.png&#34;
 	width=&#34;849&#34;
 	height=&#34;244&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746084430783_hu_71dfb7cfb650b0a4.png 480w, http://localhost:1313/p/2025050101/QQ_1746084430783_hu_ae1f33b7e059a771.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746084430783_hu_71dfb7cfb650b0a4.png 480w, http://localhost:1313/post/2025050101/QQ_1746084430783_hu_ae1f33b7e059a771.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Email Settings&#34;
@@ -109,10 +109,10 @@ Default credentials: &lt;strong&gt;admin/123456&lt;/strong&gt;&lt;/p&gt;
 &gt;&lt;/p&gt;
 &lt;p&gt;Skip this step if unnecessary, and proceed to create a certificate pipeline.&lt;/p&gt;
 &lt;h2 id=&#34;certificate-pipeline&#34;&gt;Certificate Pipeline
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746084517963.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746084517963.png&#34;
 	width=&#34;748&#34;
 	height=&#34;318&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746084517963_hu_8d545f03fc1f6442.png 480w, http://localhost:1313/p/2025050101/QQ_1746084517963_hu_4e8e243079a02169.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746084517963_hu_8d545f03fc1f6442.png 480w, http://localhost:1313/post/2025050101/QQ_1746084517963_hu_4e8e243079a02169.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Certificate Pipeline&#34;
@@ -124,10 +124,10 @@ Default credentials: &lt;strong&gt;admin/123456&lt;/strong&gt;&lt;/p&gt;
 	
 &gt;&lt;br&gt;
 Click to create a new pipeline.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746084554706.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746084554706.png&#34;
 	width=&#34;1328&#34;
 	height=&#34;944&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746084554706_hu_b488234289002ec2.png 480w, http://localhost:1313/p/2025050101/QQ_1746084554706_hu_31adc6ce6d719fd1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746084554706_hu_b488234289002ec2.png 480w, http://localhost:1313/post/2025050101/QQ_1746084554706_hu_31adc6ce6d719fd1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Pipeline Settings&#34;
@@ -160,10 +160,10 @@ Fill in the required fields.&lt;/p&gt;
 &lt;br&gt;
 Once configured, certificates can be issued even without overseas servers.&lt;/p&gt;
 &lt;p&gt;After setup, you’ll see this interface:&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085335997.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085335997.png&#34;
 	width=&#34;1109&#34;
 	height=&#34;475&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085335997_hu_de49983ac68989d6.png 480w, http://localhost:1313/p/2025050101/QQ_1746085335997_hu_17f46cd307b4712c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085335997_hu_de49983ac68989d6.png 480w, http://localhost:1313/post/2025050101/QQ_1746085335997_hu_17f46cd307b4712c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Pipeline Interface&#34;
@@ -175,10 +175,10 @@ Once configured, certificates can be issued even without overseas servers.&lt;/p
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Test the pipeline manually:&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085604442.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085604442.png&#34;
 	width=&#34;1057&#34;
 	height=&#34;281&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085604442_hu_c0515cd9cbb044a5.png 480w, http://localhost:1313/p/2025050101/QQ_1746085604442_hu_1e732f0a340f49c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085604442_hu_c0515cd9cbb044a5.png 480w, http://localhost:1313/post/2025050101/QQ_1746085604442_hu_1e732f0a340f49c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Manual Trigger&#34;
@@ -191,10 +191,10 @@ Once configured, certificates can be issued even without overseas servers.&lt;/p
 &gt;&lt;br&gt;
 If successful, the certificate will be issued.&lt;/p&gt;
 &lt;p&gt;View certificates in the dashboard:&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085713241.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085713241.png&#34;
 	width=&#34;2332&#34;
 	height=&#34;536&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085713241_hu_eb1e032c0b76d3c3.png 480w, http://localhost:1313/p/2025050101/QQ_1746085713241_hu_73dc3205459aeb85.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085713241_hu_eb1e032c0b76d3c3.png 480w, http://localhost:1313/post/2025050101/QQ_1746085713241_hu_73dc3205459aeb85.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Certificate List&#34;
@@ -218,10 +218,10 @@ If successful, the certificate will be issued.&lt;/p&gt;
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
 .&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085892100.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085892100.png&#34;
 	width=&#34;374&#34;
 	height=&#34;57&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085892100_hu_eda7b8f99671d86.png 480w, http://localhost:1313/p/2025050101/QQ_1746085892100_hu_55257259186929fb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085892100_hu_eda7b8f99671d86.png 480w, http://localhost:1313/post/2025050101/QQ_1746085892100_hu_55257259186929fb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Rainyun SSL&#34;
@@ -235,10 +235,10 @@ If successful, the certificate will be issued.&lt;/p&gt;
 &lt;li&gt;Obtain the certificate ID after manual upload.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Edit the pipeline to add a task:&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085940475.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085940475.png&#34;
 	width=&#34;2324&#34;
 	height=&#34;709&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085940475_hu_a91a2a441588006.png 480w, http://localhost:1313/p/2025050101/QQ_1746085940475_hu_100390cfa48f3749.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085940475_hu_a91a2a441588006.png 480w, http://localhost:1313/post/2025050101/QQ_1746085940475_hu_100390cfa48f3749.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Edit Pipeline&#34;
@@ -250,10 +250,10 @@ If successful, the certificate will be issued.&lt;/p&gt;
 	
 &gt;&lt;br&gt;
 Select &lt;strong&gt;Custom JS Script&lt;/strong&gt;:&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085981406.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085981406.png&#34;
 	width=&#34;889&#34;
 	height=&#34;1327&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085981406_hu_3291e7da99d55ed8.png 480w, http://localhost:1313/p/2025050101/QQ_1746085981406_hu_7385aa36d31d3601.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085981406_hu_3291e7da99d55ed8.png 480w, http://localhost:1313/post/2025050101/QQ_1746085981406_hu_7385aa36d31d3601.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Add JS Task&#34;
@@ -309,10 +309,10 @@ Select &lt;strong&gt;Custom JS Script&lt;/strong&gt;:&lt;br&gt;
 &lt;/ul&gt;
 &lt;p&gt;Finally, configure the SSL port in your server:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;listen&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;443&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;ssl&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;http2&lt;/span&gt;;  
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746086534331.png&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746086534331.png&#34;
 	width=&#34;248&#34;
 	height=&#34;61&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746086534331_hu_f84229e67bc8c5ca.png 480w, http://localhost:1313/p/2025050101/QQ_1746086534331_hu_d50b4422b97c7f84.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746086534331_hu_f84229e67bc8c5ca.png 480w, http://localhost:1313/post/2025050101/QQ_1746086534331_hu_d50b4422b97c7f84.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;SSL Port Config&#34;
@@ -325,10 +325,10 @@ Select &lt;strong&gt;Custom JS Script&lt;/strong&gt;:&lt;br&gt;
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;bt-panel-宝塔面板&#34;&gt;BT-Panel (宝塔面板)
 &lt;/h3&gt;&lt;p&gt;Certd offers one-click BT-Panel integration as a premium feature:&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746093700100.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746093700100.png&#34;
 	width=&#34;611&#34;
 	height=&#34;123&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746093700100_hu_54c82c1e1669062f.png 480w, http://localhost:1313/p/2025050101/QQ_1746093700100_hu_76f956c338b9aab7.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746093700100_hu_54c82c1e1669062f.png 480w, http://localhost:1313/post/2025050101/QQ_1746093700100_hu_76f956c338b9aab7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;BT-Panel Integration&#34;
@@ -342,10 +342,10 @@ Select &lt;strong&gt;Custom JS Script&lt;/strong&gt;:&lt;br&gt;
 &lt;p&gt;For free users:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;If Certd and the web server are on the same machine, simply copy certificates locally:&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746093903598.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746093903598.png&#34;
 	width=&#34;759&#34;
 	height=&#34;795&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746093903598_hu_9b84adbdf51e833c.png 480w, http://localhost:1313/p/2025050101/QQ_1746093903598_hu_30b80cb2461e0903.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746093903598_hu_9b84adbdf51e833c.png 480w, http://localhost:1313/post/2025050101/QQ_1746093903598_hu_30b80cb2461e0903.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Local Copy&#34;
@@ -357,10 +357,10 @@ Select &lt;strong&gt;Custom JS Script&lt;/strong&gt;:&lt;br&gt;
 	
 &gt;&lt;/li&gt;
 &lt;li&gt;For remote servers, upload certificates via SFTP/SCP:&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746093943855.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746093943855.png&#34;
 	width=&#34;755&#34;
 	height=&#34;716&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746093943855_hu_82b1968c8b514a9a.png 480w, http://localhost:1313/p/2025050101/QQ_1746093943855_hu_7afc20d478bc4185.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746093943855_hu_82b1968c8b514a9a.png 480w, http://localhost:1313/post/2025050101/QQ_1746093943855_hu_7afc20d478bc4185.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Remote Upload&#34;
@@ -384,10 +384,10 @@ Select &lt;strong&gt;Custom JS Script&lt;/strong&gt;:&lt;br&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;error_page&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;497&lt;/span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;https://&lt;/span&gt;$host$request_uri;  
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;cdn-deployment&#34;&gt;CDN Deployment
 &lt;/h3&gt;&lt;p&gt;Most CDNs support free SSL uploads directly via Certd:&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746094342236.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746094342236.png&#34;
 	width=&#34;758&#34;
 	height=&#34;799&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746094342236_hu_10fc9fb9036a524a.png 480w, http://localhost:1313/p/2025050101/QQ_1746094342236_hu_8d6019a6e157aeda.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746094342236_hu_10fc9fb9036a524a.png 480w, http://localhost:1313/post/2025050101/QQ_1746094342236_hu_8d6019a6e157aeda.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;CDN Integration&#34;

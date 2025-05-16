@@ -11,9 +11,6 @@ menu:
 ## 关于我
 
 ![loli|315x100](https://loli.sakurasen.cn/@About?name=About&theme=asoul&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=0)
-
-[∞ TIMEs - 洛天依Official/星葵77 - 单曲 - 网易云音乐](https://music.163.com/#/song?id=1986743401&uct2=U2FsdGVkX1//kng+w9dWqK7aLGiPlRO6S7RyKStq/jA=)封面
-
 目前高中在读。
 
 你可以叫我Sen，为什么叫SakuraSen？
@@ -23,6 +20,10 @@ menu:
 目前玩的游戏挺多的，欢迎大家来和我扩列：
 
 [QQ群 629616100](https://jq.qq.com/?_wv=1027&k=G2D7IA7x) | [Steam好友码 1211290823](https://steamcommunity.com/id/SakuraSenQwQ) | [征婚启事](https://www.bilibili.com/video/BV1rr4y1b7cu)
+
+---
+
+[我的Flag](/flags)
 
 下面是一些项目：
 

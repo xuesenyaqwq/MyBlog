@@ -7,13 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E4%B8%8B%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 02 May 2025 07:52:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E4%B8%8B%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用Umami来记录您的网站访问数据</title>
-        <link>http://localhost:1313/p/2024052401/</link>
+        <link>http://localhost:1313/post/2024052401/</link>
         <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/2024052401/</guid>
-        <description>&lt;img src="http://localhost:1313/p/2024052401/updata20240524015206.png" alt="Featured image of post 使用Umami来记录您的网站访问数据" /&gt;&lt;h1 id=&#34;使用umami来记录您的网站访问数据&#34;&gt;使用Umami来记录您的网站访问数据
+        <guid>http://localhost:1313/post/2024052401/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2024052401/updata20240524015206.png" alt="Featured image of post 使用Umami来记录您的网站访问数据" /&gt;&lt;h1 id=&#34;使用umami来记录您的网站访问数据&#34;&gt;使用Umami来记录您的网站访问数据
 &lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;在我们建站时，总需要一些工具来分析自己的网站有多少用户浏览，以及这些用户来源。&lt;/p&gt;
 &lt;p&gt;目前，也有一些提供此类服务的平台，例如&lt;a class=&#34;link&#34; href=&#34;https://tongji.baidu.com/web5/welcome/login&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;百度&lt;/a&gt;
@@ -69,10 +69,10 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024052401/updatascreencapture-s-yzhserver-cn-websites-d8581293-35ee-4261-ade6-57635763d972-2024-05-24-01_58_24.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2024052401/updatascreencapture-s-yzhserver-cn-websites-d8581293-35ee-4261-ade6-57635763d972-2024-05-24-01_58_24.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;2837&#34;
-	srcset=&#34;http://localhost:1313/p/2024052401/updatascreencapture-s-yzhserver-cn-websites-d8581293-35ee-4261-ade6-57635763d972-2024-05-24-01_58_24_hu_d3c3e9bd649f0217.png 480w, http://localhost:1313/p/2024052401/updatascreencapture-s-yzhserver-cn-websites-d8581293-35ee-4261-ade6-57635763d972-2024-05-24-01_58_24_hu_eab41a12de181c74.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2024052401/updatascreencapture-s-yzhserver-cn-websites-d8581293-35ee-4261-ade6-57635763d972-2024-05-24-01_58_24_hu_d3c3e9bd649f0217.png 480w, http://localhost:1313/post/2024052401/updatascreencapture-s-yzhserver-cn-websites-d8581293-35ee-4261-ade6-57635763d972-2024-05-24-01_58_24_hu_eab41a12de181c74.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -105,10 +105,10 @@ MySQL ≥ 8.0 或 PostgreSQL ≥ 12.14&lt;/p&gt;
 &lt;/h6&gt;&lt;p&gt;一切无误后，输入&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yarn build
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;开始构建umami&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2024052401/updata20240524014523.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2024052401/updata20240524014523.png&#34;
 	width=&#34;571&#34;
 	height=&#34;515&#34;
-	srcset=&#34;http://localhost:1313/p/2024052401/updata20240524014523_hu_6625d8e6a965d57b.png 480w, http://localhost:1313/p/2024052401/updata20240524014523_hu_730bd761e729a564.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2024052401/updata20240524014523_hu_6625d8e6a965d57b.png 480w, http://localhost:1313/post/2024052401/updata20240524014523_hu_730bd761e729a564.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

@@ -7,19 +7,19 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 07 May 2025 02:30:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>警惕大残陷阱，如何在APEX中实时查看队友伤害</title>
-        <link>http://localhost:1313/p/373/</link>
+        <link>http://localhost:1313/post/373/</link>
         <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/373/</guid>
-        <description>&lt;img src="http://localhost:1313/p/373/20230812110138apex-legends-keyart457.jpg" alt="Featured image of post 警惕大残陷阱，如何在APEX中实时查看队友伤害" /&gt;&lt;h3 id=&#34;前言&#34;&gt;前言
+        <guid>http://localhost:1313/post/373/</guid>
+        <description>&lt;img src="http://localhost:1313/post/373/20230812110138apex-legends-keyart457.jpg" alt="Featured image of post 警惕大残陷阱，如何在APEX中实时查看队友伤害" /&gt;&lt;h3 id=&#34;前言&#34;&gt;前言
 &lt;/h3&gt;&lt;p&gt;在很多时候，无论是单排还是开黑，总是想在游戏还未结算时就看到队友伤害，无论是单排打完一波架后查看队友成分，好让自己心中有个数；还是在组排中打完一波架后实时开庭惩罚没干活的队友。而本章就推荐大家使用软件blitz在游戏中查看队友数据。&lt;/p&gt;
 &lt;h3 id=&#34;何为blitz&#34;&gt;何为blitz
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/373/20240414172658%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_14-4-2024_163032_blitz.gg_602-1024x527.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/373/20240414172658%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_14-4-2024_163032_blitz.gg_602-1024x527.jpeg&#34;
 	width=&#34;1024&#34;
 	height=&#34;527&#34;
-	srcset=&#34;http://localhost:1313/p/373/20240414172658%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_14-4-2024_163032_blitz.gg_602-1024x527_hu_5af5224d34e2a671.jpeg 480w, http://localhost:1313/p/373/20240414172658%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_14-4-2024_163032_blitz.gg_602-1024x527_hu_b599ae1bd513f34.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/373/20240414172658%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_14-4-2024_163032_blitz.gg_602-1024x527_hu_5af5224d34e2a671.jpeg 480w, http://localhost:1313/post/373/20240414172658%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_14-4-2024_163032_blitz.gg_602-1024x527_hu_b599ae1bd513f34.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;BLITZ&#34;
@@ -32,10 +32,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;Blitz为大多数游戏提供了支持，只需下载安装即可开始使用。&lt;/p&gt;
 &lt;p&gt;以APEX为例，Blitz将会记录您的个人数据，包括比赛记录，武器使用记录，伤害，爆头率等。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/373/20240414172712QQ%E6%88%AA%E5%9B%BE20240414170347550-1024x565.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/373/20240414172712QQ%E6%88%AA%E5%9B%BE20240414170347550-1024x565.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;565&#34;
-	srcset=&#34;http://localhost:1313/p/373/20240414172712QQ%E6%88%AA%E5%9B%BE20240414170347550-1024x565_hu_fe287d7536d0c72.png 480w, http://localhost:1313/p/373/20240414172712QQ%E6%88%AA%E5%9B%BE20240414170347550-1024x565_hu_e2d13f44292848ae.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/373/20240414172712QQ%E6%88%AA%E5%9B%BE20240414170347550-1024x565_hu_fe287d7536d0c72.png 480w, http://localhost:1313/post/373/20240414172712QQ%E6%88%AA%E5%9B%BE20240414170347550-1024x565_hu_e2d13f44292848ae.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47,10 +47,10 @@
 &lt;h3 id=&#34;如何使用&#34;&gt;如何使用
 &lt;/h3&gt;&lt;p&gt;打开官网blitz.gg，点击下载按钮下载即可。&lt;/p&gt;
 &lt;p&gt;打开后软件会自动安装并启动&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/373/20240414172720QQ%E6%88%AA%E5%9B%BE20240414163649952-1024x613.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/373/20240414172720QQ%E6%88%AA%E5%9B%BE20240414163649952-1024x613.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;613&#34;
-	srcset=&#34;http://localhost:1313/p/373/20240414172720QQ%E6%88%AA%E5%9B%BE20240414163649952-1024x613_hu_460f0d0b780fbc84.png 480w, http://localhost:1313/p/373/20240414172720QQ%E6%88%AA%E5%9B%BE20240414163649952-1024x613_hu_f7d93cfb113b8b39.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/373/20240414172720QQ%E6%88%AA%E5%9B%BE20240414163649952-1024x613_hu_460f0d0b780fbc84.png 480w, http://localhost:1313/post/373/20240414172720QQ%E6%88%AA%E5%9B%BE20240414163649952-1024x613_hu_f7d93cfb113b8b39.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -72,10 +72,10 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;设置&#34;&gt;设置
 &lt;/h3&gt;&lt;p&gt;进入大厅，你会看到一个Blitz悬浮窗&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/373/202404141727293fee69a7eab04284b73dcf6cdfb200af-1866-1024x576.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/373/202404141727293fee69a7eab04284b73dcf6cdfb200af-1866-1024x576.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;576&#34;
-	srcset=&#34;http://localhost:1313/p/373/202404141727293fee69a7eab04284b73dcf6cdfb200af-1866-1024x576_hu_cf41423da9cd07b7.png 480w, http://localhost:1313/p/373/202404141727293fee69a7eab04284b73dcf6cdfb200af-1866-1024x576_hu_db1056b94e6910bd.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/373/202404141727293fee69a7eab04284b73dcf6cdfb200af-1866-1024x576_hu_cf41423da9cd07b7.png 480w, http://localhost:1313/post/373/202404141727293fee69a7eab04284b73dcf6cdfb200af-1866-1024x576_hu_db1056b94e6910bd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -86,10 +86,10 @@
 &gt;
 如果没有此悬浮窗，可以尝试开几把游戏，此悬浮窗展示了您的近期平均数据，你可以使用Ctrl+Tab快捷键隐藏。&lt;/p&gt;
 &lt;p&gt;进入一场游戏时，若开启了“动态统计”功能，则此软件默认只显示自己的数据，若想查看游戏内队友的数据，则需要按ESC，点击悬浮窗旁边的箭头&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/373/20240414172743027c6313054fdb00580caa07e9e6c16d495.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/373/20240414172743027c6313054fdb00580caa07e9e6c16d495.png&#34;
 	width=&#34;189&#34;
 	height=&#34;424&#34;
-	srcset=&#34;http://localhost:1313/p/373/20240414172743027c6313054fdb00580caa07e9e6c16d495_hu_47f152c668565e17.png 480w, http://localhost:1313/p/373/20240414172743027c6313054fdb00580caa07e9e6c16d495_hu_b70c8e0c993cc0a5.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/373/20240414172743027c6313054fdb00580caa07e9e6c16d495_hu_47f152c668565e17.png 480w, http://localhost:1313/post/373/20240414172743027c6313054fdb00580caa07e9e6c16d495_hu_b70c8e0c993cc0a5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -97,10 +97,10 @@
 		data-flex-grow=&#34;44&#34;
 		data-flex-basis=&#34;106px&#34;
 	
-&gt;  &lt;img src=&#34;http://localhost:1313/p/373/20240414172745ee7a7b786c5a421f87643ddcdb2d65c2209.png&#34;
+&gt;  &lt;img src=&#34;http://localhost:1313/post/373/20240414172745ee7a7b786c5a421f87643ddcdb2d65c2209.png&#34;
 	width=&#34;257&#34;
 	height=&#34;157&#34;
-	srcset=&#34;http://localhost:1313/p/373/20240414172745ee7a7b786c5a421f87643ddcdb2d65c2209_hu_b8d597e652c50bd7.png 480w, http://localhost:1313/p/373/20240414172745ee7a7b786c5a421f87643ddcdb2d65c2209_hu_8c9e3523da39b00.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/373/20240414172745ee7a7b786c5a421f87643ddcdb2d65c2209_hu_b8d597e652c50bd7.png 480w, http://localhost:1313/post/373/20240414172745ee7a7b786c5a421f87643ddcdb2d65c2209_hu_8c9e3523da39b00.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -113,10 +113,10 @@
 &lt;p&gt;在此面板中，展示了队友的伤害(DMG)，承受的伤害(DT)，击杀与助攻(K/A)，分数(SCORE)&lt;/p&gt;
 &lt;p&gt;此面板为实时展示。&lt;/p&gt;
 &lt;p&gt;在你进行完一场比赛后，此软件会记录您的比赛，你可以打开软件查看比赛记录，也可以查看武器数据，各个传奇数据&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/373/20240414172804QQ%E6%88%AA%E5%9B%BE20240414170347636-1024x565.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/373/20240414172804QQ%E6%88%AA%E5%9B%BE20240414170347636-1024x565.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;565&#34;
-	srcset=&#34;http://localhost:1313/p/373/20240414172804QQ%E6%88%AA%E5%9B%BE20240414170347636-1024x565_hu_fe287d7536d0c72.png 480w, http://localhost:1313/p/373/20240414172804QQ%E6%88%AA%E5%9B%BE20240414170347636-1024x565_hu_e2d13f44292848ae.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/373/20240414172804QQ%E6%88%AA%E5%9B%BE20240414170347636-1024x565_hu_fe287d7536d0c72.png 480w, http://localhost:1313/post/373/20240414172804QQ%E6%88%AA%E5%9B%BE20240414170347636-1024x565_hu_e2d13f44292848ae.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -124,10 +124,10 @@
 		data-flex-grow=&#34;181&#34;
 		data-flex-basis=&#34;434px&#34;
 	
-&gt;  &lt;img src=&#34;http://localhost:1313/p/373/20240414172810QQ%E6%88%AA%E5%9B%BE20240414170740428-1024x565.png&#34;
+&gt;  &lt;img src=&#34;http://localhost:1313/post/373/20240414172810QQ%E6%88%AA%E5%9B%BE20240414170740428-1024x565.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;565&#34;
-	srcset=&#34;http://localhost:1313/p/373/20240414172810QQ%E6%88%AA%E5%9B%BE20240414170740428-1024x565_hu_1dbdd64c1c186384.png 480w, http://localhost:1313/p/373/20240414172810QQ%E6%88%AA%E5%9B%BE20240414170740428-1024x565_hu_102b81598315d8d3.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/373/20240414172810QQ%E6%88%AA%E5%9B%BE20240414170740428-1024x565_hu_1dbdd64c1c186384.png 480w, http://localhost:1313/post/373/20240414172810QQ%E6%88%AA%E5%9B%BE20240414170740428-1024x565_hu_102b81598315d8d3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -135,10 +135,10 @@
 		data-flex-grow=&#34;181&#34;
 		data-flex-basis=&#34;434px&#34;
 	
-&gt;  &lt;img src=&#34;http://localhost:1313/p/373/20240414172815QQ%E6%88%AA%E5%9B%BE20240414170735511-1024x565.png&#34;
+&gt;  &lt;img src=&#34;http://localhost:1313/post/373/20240414172815QQ%E6%88%AA%E5%9B%BE20240414170735511-1024x565.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;565&#34;
-	srcset=&#34;http://localhost:1313/p/373/20240414172815QQ%E6%88%AA%E5%9B%BE20240414170735511-1024x565_hu_298cd42dfd78fcbd.png 480w, http://localhost:1313/p/373/20240414172815QQ%E6%88%AA%E5%9B%BE20240414170735511-1024x565_hu_45ad211ea92798f0.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/373/20240414172815QQ%E6%88%AA%E5%9B%BE20240414170735511-1024x565_hu_298cd42dfd78fcbd.png 480w, http://localhost:1313/post/373/20240414172815QQ%E6%88%AA%E5%9B%BE20240414170735511-1024x565_hu_45ad211ea92798f0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -148,10 +148,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;也可以选择一场比赛记录查看详细内容&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/373/20240414172824QQ%E6%88%AA%E5%9B%BE20240414170327277-1024x987.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/373/20240414172824QQ%E6%88%AA%E5%9B%BE20240414170327277-1024x987.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;987&#34;
-	srcset=&#34;http://localhost:1313/p/373/20240414172824QQ%E6%88%AA%E5%9B%BE20240414170327277-1024x987_hu_9b1d1f4380f92b69.png 480w, http://localhost:1313/p/373/20240414172824QQ%E6%88%AA%E5%9B%BE20240414170327277-1024x987_hu_d061c813e748547f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/373/20240414172824QQ%E6%88%AA%E5%9B%BE20240414170327277-1024x987_hu_9b1d1f4380f92b69.png 480w, http://localhost:1313/post/373/20240414172824QQ%E6%88%AA%E5%9B%BE20240414170327277-1024x987_hu_d061c813e748547f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -178,11 +178,11 @@
         </item>
         <item>
         <title>Pr导入flac音频文件插件</title>
-        <link>http://localhost:1313/p/323/</link>
+        <link>http://localhost:1313/post/323/</link>
         <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/323/</guid>
-        <description>&lt;img src="http://localhost:1313/p/323/129795806_p0.jpg" alt="Featured image of post Pr导入flac音频文件插件" /&gt;&lt;p&gt;封面来源：&lt;a class=&#34;link&#34; href=&#34;https://www.pixiv.net/artworks/129795806&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;#イラスト To Where Our Blue is - Android/アンドロイド的插画 - pixiv&lt;/a&gt;
+        <guid>http://localhost:1313/post/323/</guid>
+        <description>&lt;img src="http://localhost:1313/post/323/129795806_p0.jpg" alt="Featured image of post Pr导入flac音频文件插件" /&gt;&lt;p&gt;封面来源：&lt;a class=&#34;link&#34; href=&#34;https://www.pixiv.net/artworks/129795806&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;#イラスト To Where Our Blue is - Android/アンドロイド的插画 - pixiv&lt;/a&gt;
 
 &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
         xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
@@ -216,10 +216,10 @@
 &lt;/h3&gt;&lt;p&gt;打开Pr插件文件夹，以2023版本为例&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;C:\Program Files\Adobe\Adobe Premiere Pro 2023\PlugIns\Common&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;将下载的压缩包内的&lt;strong&gt;Ogg.prm&lt;/strong&gt;放入此文件夹中
-&lt;img src=&#34;http://localhost:1313/p/323/20240409025125image501-1024x366.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/323/20240409025125image501-1024x366.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;366&#34;
-	srcset=&#34;http://localhost:1313/p/323/20240409025125image501-1024x366_hu_2d54fbc00336031d.png 480w, http://localhost:1313/p/323/20240409025125image501-1024x366_hu_db373a83935b1279.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/323/20240409025125image501-1024x366_hu_2d54fbc00336031d.png 480w, http://localhost:1313/post/323/20240409025125image501-1024x366_hu_db373a83935b1279.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;IMG&#34;

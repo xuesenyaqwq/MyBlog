@@ -7,13 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 05:21:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/cfg/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 02 May 2025 07:51:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/cfg/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>APEX自用画质cfg/启动项</title>
-        <link>http://localhost:1313/p/246/</link>
+        <link>http://localhost:1313/post/246/</link>
         <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/246/</guid>
-        <description>&lt;img src="http://localhost:1313/p/246/20230812110138apex-legends-keyart457.jpg" alt="Featured image of post APEX自用画质cfg/启动项" /&gt;&lt;h3 id=&#34;画质cfg&#34;&gt;画质CFG:
+        <guid>http://localhost:1313/post/246/</guid>
+        <description>&lt;img src="http://localhost:1313/post/246/20230812110138apex-legends-keyart457.jpg" alt="Featured image of post APEX自用画质cfg/启动项" /&gt;&lt;h3 id=&#34;画质cfg&#34;&gt;画质CFG:
 &lt;/h3&gt;&lt;p&gt;Win+R输入 &lt;code&gt;%USERPROFILE%\Saved Games\Respawn\Apex\local&lt;/code&gt; &lt;br&gt;
 找到&lt;code&gt;videoconfig.txt&lt;/code&gt; &lt;br&gt;
 复制粘贴：&lt;/p&gt;

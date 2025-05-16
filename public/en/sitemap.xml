@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/tags/automation/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T02:45:12+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T02:45:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -19,7 +19,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/certd/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T02:45:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -32,7 +32,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T02:45:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -45,10 +45,10 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/ssl-certificates/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T02:45:12+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T02:45:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -60,21 +60,21 @@
                 href="http://localhost:1313/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/p/2025050101/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <loc>http://localhost:1313/en/post/2025050101/</loc>
+    <lastmod>2025-05-07T02:45:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/p/2025050101/"
+                href="http://localhost:1313/post/2025050101/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/p/2025050101/"
+                href="http://localhost:1313/en/post/2025050101/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T03:13:01+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -87,7 +87,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/about/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T09:30:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -100,7 +100,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/archives/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-05T23:02:39+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -113,7 +113,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/copyright/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T03:12:21+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -126,7 +126,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/donate/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-06T00:31:17+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -139,7 +139,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/%E6%88%91%E8%A7%81/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T02:43:13+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -152,7 +152,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/feedback/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-06T00:36:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -164,8 +164,21 @@
                 href="http://localhost:1313/en/feedback/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/flags/</loc>
+    <lastmod>2025-05-16T11:02:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/flags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/flags/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/friends/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-06T01:10:48+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -178,7 +191,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/%E6%88%91%E5%BE%97/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T02:42:51+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -191,7 +204,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/%E6%88%91%E6%80%9D/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-07T02:43:36+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -204,7 +217,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/message/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-16T13:34:55+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -217,7 +230,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/page/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-16T13:34:55+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -230,7 +243,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/search/</loc>
-    <lastmod>2025-05-08T05:21:45+08:00</lastmod>
+    <lastmod>2025-05-06T01:11:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"

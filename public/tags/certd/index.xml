@@ -7,13 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Thu, 08 May 2025 22:26:52 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/certd/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 13 May 2025 05:47:03 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/certd/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>用上预制证书！不再每次手动申请！</title>
-        <link>http://localhost:1313/p/2025050101/</link>
+        <link>http://localhost:1313/post/2025050101/</link>
         <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/2025050101/</guid>
-        <description>&lt;img src="http://localhost:1313/p/2025050101/bg.png" alt="Featured image of post 用上预制证书！不再每次手动申请！" /&gt;&lt;h2 id=&#34;ssl证书怎么那么坏&#34;&gt;SSL证书怎么那么坏
+        <guid>http://localhost:1313/post/2025050101/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2025050101/bg.png" alt="Featured image of post 用上预制证书！不再每次手动申请！" /&gt;&lt;h2 id=&#34;ssl证书怎么那么坏&#34;&gt;SSL证书怎么那么坏
 &lt;/h2&gt;&lt;p&gt;很久以前，我记得SSL证书只需要一年一申请，不知何时，改成了三个月。&lt;/p&gt;
 &lt;p&gt;如果你是付费用户当我没说。&lt;/p&gt;
 &lt;h2 id=&#34;全自动化申请ssl证书&#34;&gt;全自动化申请SSL证书
@@ -35,10 +35,10 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746084079894-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746084079894-1.png&#34;
 	width=&#34;1362&#34;
 	height=&#34;497&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746084079894-1_hu_c5d795785b2fd423.png 480w, http://localhost:1313/p/2025050101/QQ_1746084079894-1_hu_da54e7e8f2cc329d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746084079894-1_hu_c5d795785b2fd423.png 480w, http://localhost:1313/post/2025050101/QQ_1746084079894-1_hu_da54e7e8f2cc329d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;截图&#34;
@@ -93,10 +93,10 @@
 &lt;p&gt;默认账号密码：&lt;strong&gt;admin/123456&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;邮件通知&#34;&gt;邮件通知
 &lt;/h2&gt;&lt;p&gt;进入管理后台，你可以先配置邮件通知。
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746084430783.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746084430783.png&#34;
 	width=&#34;849&#34;
 	height=&#34;244&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746084430783_hu_71dfb7cfb650b0a4.png 480w, http://localhost:1313/p/2025050101/QQ_1746084430783_hu_ae1f33b7e059a771.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746084430783_hu_71dfb7cfb650b0a4.png 480w, http://localhost:1313/post/2025050101/QQ_1746084430783_hu_ae1f33b7e059a771.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;EmailSetting&#34;
@@ -109,10 +109,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;若不想配置，则直接可以开始创建证书流水线&lt;/p&gt;
 &lt;h2 id=&#34;证书流水线&#34;&gt;证书流水线
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746084517963.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746084517963.png&#34;
 	width=&#34;748&#34;
 	height=&#34;318&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746084517963_hu_8d545f03fc1f6442.png 480w, http://localhost:1313/p/2025050101/QQ_1746084517963_hu_4e8e243079a02169.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746084517963_hu_8d545f03fc1f6442.png 480w, http://localhost:1313/post/2025050101/QQ_1746084517963_hu_4e8e243079a02169.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;证书流水线&#34;
@@ -124,10 +124,10 @@
 	
 &gt;
 点击新建一个证书流水线&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746084554706.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746084554706.png&#34;
 	width=&#34;1328&#34;
 	height=&#34;944&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746084554706_hu_b488234289002ec2.png 480w, http://localhost:1313/p/2025050101/QQ_1746084554706_hu_31adc6ce6d719fd1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746084554706_hu_b488234289002ec2.png 480w, http://localhost:1313/post/2025050101/QQ_1746084554706_hu_31adc6ce6d719fd1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;setting&#34;
@@ -160,10 +160,10 @@
 
 获取后无需服务器在海外也可申请Google证书&lt;/p&gt;
 &lt;p&gt;当你一切完毕后，你将会看到以下界面
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085335997.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085335997.png&#34;
 	width=&#34;1109&#34;
 	height=&#34;475&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085335997_hu_de49983ac68989d6.png 480w, http://localhost:1313/p/2025050101/QQ_1746085335997_hu_17f46cd307b4712c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085335997_hu_de49983ac68989d6.png 480w, http://localhost:1313/post/2025050101/QQ_1746085335997_hu_17f46cd307b4712c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;界面&#34;
@@ -175,10 +175,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;若一切正常，你可以先点击手动触发测试
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085604442.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085604442.png&#34;
 	width=&#34;1057&#34;
 	height=&#34;281&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085604442_hu_c0515cd9cbb044a5.png 480w, http://localhost:1313/p/2025050101/QQ_1746085604442_hu_1e732f0a340f49c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085604442_hu_c0515cd9cbb044a5.png 480w, http://localhost:1313/post/2025050101/QQ_1746085604442_hu_1e732f0a340f49c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -191,10 +191,10 @@
 &gt;
 一切正常，申请成功，那很棒了！&lt;/p&gt;
 &lt;p&gt;你可以返回上一级查看证书
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085713241.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085713241.png&#34;
 	width=&#34;2332&#34;
 	height=&#34;536&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085713241_hu_eb1e032c0b76d3c3.png 480w, http://localhost:1313/p/2025050101/QQ_1746085713241_hu_73dc3205459aeb85.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085713241_hu_eb1e032c0b76d3c3.png 480w, http://localhost:1313/post/2025050101/QQ_1746085713241_hu_73dc3205459aeb85.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -216,10 +216,10 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
 手动添加证书
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085892100.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085892100.png&#34;
 	width=&#34;374&#34;
 	height=&#34;57&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085892100_hu_eda7b8f99671d86.png 480w, http://localhost:1313/p/2025050101/QQ_1746085892100_hu_55257259186929fb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085892100_hu_eda7b8f99671d86.png 480w, http://localhost:1313/post/2025050101/QQ_1746085892100_hu_55257259186929fb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -232,10 +232,10 @@
 &gt;
 当你手动添加后，会获得一个ID&lt;/p&gt;
 &lt;p&gt;然后去编辑流水线
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085940475.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085940475.png&#34;
 	width=&#34;2324&#34;
 	height=&#34;709&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085940475_hu_a91a2a441588006.png 480w, http://localhost:1313/p/2025050101/QQ_1746085940475_hu_100390cfa48f3749.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085940475_hu_a91a2a441588006.png 480w, http://localhost:1313/post/2025050101/QQ_1746085940475_hu_100390cfa48f3749.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -247,10 +247,10 @@
 	
 &gt;
 添加任务
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085958485.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085958485.png&#34;
 	width=&#34;2327&#34;
 	height=&#34;681&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085958485_hu_d606d592cb8008c7.png 480w, http://localhost:1313/p/2025050101/QQ_1746085958485_hu_e59f84b5499c343.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085958485_hu_d606d592cb8008c7.png 480w, http://localhost:1313/post/2025050101/QQ_1746085958485_hu_e59f84b5499c343.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -262,10 +262,10 @@
 	
 &gt;
 其他中选择js脚本
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746085981406.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746085981406.png&#34;
 	width=&#34;889&#34;
 	height=&#34;1327&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746085981406_hu_3291e7da99d55ed8.png 480w, http://localhost:1313/p/2025050101/QQ_1746085981406_hu_7385aa36d31d3601.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746085981406_hu_3291e7da99d55ed8.png 480w, http://localhost:1313/post/2025050101/QQ_1746085981406_hu_7385aa36d31d3601.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -321,10 +321,10 @@
 &lt;p&gt;添加后再次申请即可自动上传至雨云。&lt;/p&gt;
 &lt;h2 id=&#34;记得在配置文件添加ssl端口&#34;&gt;记得在配置文件添加SSL端口
 &lt;/h2&gt;&lt;h2 id=&#34;listen-443-ssl-http2-&#34;&gt;listen 443 ssl http2 ;
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746086534331.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746086534331.png&#34;
 	width=&#34;248&#34;
 	height=&#34;61&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746086534331_hu_f84229e67bc8c5ca.png 480w, http://localhost:1313/p/2025050101/QQ_1746086534331_hu_d50b4422b97c7f84.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746086534331_hu_f84229e67bc8c5ca.png 480w, http://localhost:1313/post/2025050101/QQ_1746086534331_hu_d50b4422b97c7f84.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -337,10 +337,10 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;宝塔面板&#34;&gt;宝塔面板
 &lt;/h3&gt;&lt;p&gt;其实Certd有宝塔面板一键部署，不过为高级版功能
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746093700100.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746093700100.png&#34;
 	width=&#34;611&#34;
 	height=&#34;123&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746093700100_hu_54c82c1e1669062f.png 480w, http://localhost:1313/p/2025050101/QQ_1746093700100_hu_76f956c338b9aab7.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746093700100_hu_54c82c1e1669062f.png 480w, http://localhost:1313/post/2025050101/QQ_1746093700100_hu_76f956c338b9aab7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -355,10 +355,10 @@
 &lt;blockquote&gt;
 &lt;p&gt;此功能未经测试，仅为理论&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;如果你的web和certd在同一台服务器，则只需要复制到本机即可
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746093903598.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746093903598.png&#34;
 	width=&#34;759&#34;
 	height=&#34;795&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746093903598_hu_9b84adbdf51e833c.png 480w, http://localhost:1313/p/2025050101/QQ_1746093903598_hu_30b80cb2461e0903.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746093903598_hu_9b84adbdf51e833c.png 480w, http://localhost:1313/post/2025050101/QQ_1746093903598_hu_30b80cb2461e0903.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -370,10 +370,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;如果在另一台服务器，则需要上传至服务器
-&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746093943855.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746093943855.png&#34;
 	width=&#34;755&#34;
 	height=&#34;716&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746093943855_hu_82b1968c8b514a9a.png 480w, http://localhost:1313/p/2025050101/QQ_1746093943855_hu_7afc20d478bc4185.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746093943855_hu_82b1968c8b514a9a.png 480w, http://localhost:1313/post/2025050101/QQ_1746093943855_hu_7afc20d478bc4185.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -395,10 +395,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;add_header&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;Strict-Transport-Security&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;max-age=31536000&amp;#34;&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;error_page&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;497&lt;/span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;https://&lt;/span&gt;$host$request_uri;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;cdn部署&#34;&gt;CDN部署
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/2025050101/QQ_1746094342236.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025050101/QQ_1746094342236.png&#34;
 	width=&#34;758&#34;
 	height=&#34;799&#34;
-	srcset=&#34;http://localhost:1313/p/2025050101/QQ_1746094342236_hu_10fc9fb9036a524a.png 480w, http://localhost:1313/p/2025050101/QQ_1746094342236_hu_8d6019a6e157aeda.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025050101/QQ_1746094342236_hu_10fc9fb9036a524a.png 480w, http://localhost:1313/post/2025050101/QQ_1746094342236_hu_8d6019a6e157aeda.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;大部分cdn部署都是免费的，直接使用即可。&#34;
