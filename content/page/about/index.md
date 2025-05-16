@@ -11,6 +11,7 @@ menu:
 ## 关于我
 
 ![loli|315x100](https://loli.sakurasen.cn/@About?name=About&theme=asoul&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=0)
+
 目前高中在读。
 
 你可以叫我Sen，为什么叫SakuraSen？
