@@ -579,8 +579,20 @@ Select &lt;strong&gt;Custom JS Script&lt;/strong&gt;:&lt;br&gt;
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/en/flags/</guid>
-        <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me
-&lt;/h2&gt;&lt;p&gt;A Senior high school student in China&lt;/p&gt;
+        <description>&lt;h2 id=&#34;flags&#34;&gt;FLAGS
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Starting now, no more gacha in Arknights&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’m really out of gacha resources. My current box is enough to clear stages anyway. ~~Not like there’s any stage I can’t clear&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Arknights Music Festival&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Too bad I quit &lt;em&gt;Honkai: Star Rail&lt;/em&gt;, otherwise I’d go to HSR’s event too.&lt;/p&gt;
+&lt;p&gt;Also, screw HSR for designing stages just to sell new characters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Become a drawing master&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Right now, it’s &lt;em&gt;delulu&lt;/em&gt; hours!&lt;/p&gt;
 </description>
         </item>
         <item>
