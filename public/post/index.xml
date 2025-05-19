@@ -7,23 +7,14 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>SakuraSen</copyright>
-        <lastBuildDate>Sun, 18 May 2025 07:50:34 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 18 May 2025 16:00:31 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>提问的智慧</title>
-        <link>http://localhost:1313/post/%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7/</link>
+        <link>http://localhost:1313/post/ask/</link>
         <pubDate>Sun, 18 May 2025 07:47:56 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7/</guid>
+        <guid>http://localhost:1313/post/ask/</guid>
         <description>&lt;h1 id=&#34;提问的智慧&#34;&gt;提问的智慧
-&lt;/h1&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pulls&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;&lt;img src=&#34;https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;PRs Welcome&#34;
-	
-	
-&gt;&lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pulls&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;PRs Welcome&lt;/a&gt;
 
 &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34;
         xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
@@ -71,11 +62,7 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
  给我。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;本文另有&lt;a class=&#34;link&#34; href=&#34;themes/hugo-theme-stack/README.md&#34; &gt;繁體中文版&lt;/a&gt;
-。&lt;/p&gt;
-&lt;h2 id=&#34;原文版本历史&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;history.md&#34; &gt;原文版本历史&lt;/a&gt;
-
-&lt;/h2&gt;&lt;h2 id=&#34;目录&#34;&gt;目录
+&lt;h2 id=&#34;目录&#34;&gt;目录
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%a3%b0%e6%98%8e&#34; &gt;声明&lt;/a&gt;
 &lt;/li&gt;
