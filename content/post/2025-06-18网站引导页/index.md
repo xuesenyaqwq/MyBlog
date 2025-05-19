@@ -1,9 +1,10 @@
 ---
 title: 我的主页
 date: 2025-05-18T17:36:55+08:00
-draft: true
-categories: 
-image: 
+draft: false
+categories:
+  - 我得
+image: image.webp
 description: 
 slug: index
 ---
